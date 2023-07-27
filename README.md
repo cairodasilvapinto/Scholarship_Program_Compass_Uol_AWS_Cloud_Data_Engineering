@@ -50,9 +50,9 @@ Alguns comandos mais usados do git:
 
 `git checkout -b [nome-do-branch]`      | Cria um novo branch com o nome especificado e muda para ele.
 
-`git merge --no-ff [nome-do-branch]`   | Realiza um merge com criação de um commit mesmo em fast-forward.
+`git merge --no-ff [nome-do-branch]`    | Realiza um merge com criação de um commit mesmo em fast-forward.
 
-`git diff [branch1] [branch2]`           | Exibe as diferenças entre dois branches especificados. 
+`git diff [branch1] [branch2]`          | Exibe as diferenças entre dois branches especificados. 
 
 `git fetch`                             | Busca todas as alterações dos branches do repositório remoto.
 
@@ -62,7 +62,7 @@ Alguns comandos mais usados do git:
 
 `git show [tag]`                        | Mostra as informações e mudanças associadas a uma tag específica.
 
-`git diff [branch1] [branch2]`         | Exibe as diferenças entre dois branches especificados.
+`git diff [branch1] [branch2]`          | Exibe as diferenças entre dois branches especificados.
 
 `git gc`                                | Executa a coleta de lixo no repositório, compactando e otimizando o banco de dados Git para melhorar o desempenho.
 
@@ -77,6 +77,30 @@ Uma das características mais marcantes do Linux é sua diversidade de distribui
 *Quais seus principais usou?* Servidores Web, computação em nuvem, Android, desemvolvimento de software, IoT, administração de redes, supercomputadores e mais.
 
 Alguns comandos úteis amplamente usados no terminal do Linux:
+
+`ls`	                                  | Lista os arquivos e diretórios no diretório atual.
+
+`cd`	                                  | Navega para outro diretório.
+
+`pwd`	                                  | Exibe o caminho completo do diretório atual.
+
+`mkdir`                                 | Cria um novo diretório.
+
+`rm`                                    | Remove arquivos ou diretórios.
+
+`cp`	                                  | Copia arquivos ou diretórios.
+
+`mv`	                                  | Move ou renomeia arquivos ou diretórios.
+
+`touch`	                                | Cria um novo arquivo vazio.
+
+`cat`	                                  | Exibe o conteúdo de um arquivo no terminal.
+
+`grep`	                                | Pesquisa por padrões em arquivos.
+
+`chmod`	                                | Altera as permissões de um arquivo ou diretório.
+
+`sudo`	                                | Executa um comando com privilégios de superusuário.
 
 
 
