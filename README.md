@@ -7,6 +7,10 @@ Olá sou Cairo da Silva Pinto Tenho 19 anos e moro em Ilha Solteira-SP, estou cu
 ## 1. Sprint 1
 ### Git e GitHub do básico ao avançado (c/ gist e GitHub Pages)
 [Link para certificados e arquivos do sprint 1](/README.md)
+O que é um repositorio? e para que serve?
+o que é git?
+o que é github?
+o que é markdown?
 
 `git init`                              | Inicia um novo repositório Git em um diretório local.
 
@@ -55,6 +59,9 @@ Olá sou Cairo da Silva Pinto Tenho 19 anos e moro em Ilha Solteira-SP, estou cu
 `git diff [branch1] [branch2]`         | Exibe as diferenças entre dois branches especificados.
 
 `git gc`                                | Executa a coleta de lixo no repositório, compactando e otimizando o banco de dados Git para melhorar o desempenho.
+
+### Linux para Desenvolvedores (c/ terminal, Shell, Apache e +)
+
 
 2. [Sprint 2](/README.md)
 4. [Sprint 3](/README.md)
