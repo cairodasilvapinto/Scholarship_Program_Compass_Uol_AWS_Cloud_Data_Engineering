@@ -1,11 +1,11 @@
-# bolsaCOMPASS
-## Apresentação
+
+# Apresentação
 
 Olá sou Cairo da Silva Pinto Tenho 19 anos e moro em Ilha Solteira-SP, estou cursando Sistemas de Informação na UFMS de Três Lagoas, atualmente no quarto semestre. Tenho quatro meses de experiência com desenvolvimento web full stack. Como hobbies, tenho a musculação, que é uma paixão minha. Além disso, sou fascinado por tecnologia. Meus objetivos na trajetória da bolsa são aprender ao máximo e aprimorar minhas habilidades.
 
-## Sprints
-## 1. Sprint 1
-### Git e GitHub do básico ao avançado (c/ gist e GitHub Pages)
+# Sprints
+# 1. Sprint 1
+## Git e GitHub do básico ao avançado (c/ gist e GitHub Pages)
 [Link para certificados e arquivos do sprint 1](/README.md)
 
 *O que é um repositorio? e para que serve?* Um repositório é um espaço onde são armazenados os arquivos e as informações relacionadas a um projeto ou sistema de controle de versão, como o Git. Ele contém todo o histórico de alterações (commits), bem como as diferentes versões dos arquivos que compõem o projeto. São essenciais para facilitar a colaboração em equipe e manter o controle de versões de um projeto. Eles são fundamentais para o desenvolvimento de software colaborativo, pois permitem que várias pessoas trabalhem no mesmo projeto sem interferir no trabalho umas das outras.
@@ -64,7 +64,7 @@ Olá sou Cairo da Silva Pinto Tenho 19 anos e moro em Ilha Solteira-SP, estou cu
 
 `git gc`                                | Executa a coleta de lixo no repositório, compactando e otimizando o banco de dados Git para melhorar o desempenho.
 
-### Linux para Desenvolvedores (c/ terminal, Shell, Apache e +)
+## Linux para Desenvolvedores (c/ terminal, Shell, Apache e +)
 
 
 2. [Sprint 2](/README.md)
