@@ -96,13 +96,35 @@ Alguns comandos úteis amplamente usados no terminal do Linux:
 
 `cat`	                                  | Exibe o conteúdo de um arquivo no terminal.
 
-`grep`	                                | Pesquisa por padrões em arquivos.
+`grep [padrão] [arquivo]`	              | Pesquisa por padrões em arquivos.
 
 `chmod`	                                | Altera as permissões de um arquivo ou diretório.
 
 `sudo`	                                | Executa um comando com privilégios de superusuário.
 
+`ls -l`	                                | Lista os arquivos e diretórios com detalhes, incluindo permissões, proprietário, tamanho, etc.
 
+`ls -a`	                                | Lista todos os arquivos e diretórios, incluindo os ocultos que começam com um ponto.
+
+`cd ..`                                 | Navega para o diretório pai (diretório acima do diretório atual).
+
+`tar -cvzf [arquivo.tar.gz] [arquivos]` | Cria um arquivo compactado em formato .tar.gz com os arquivos fornecidos.
+
+`tar -xvzf [arquivo.tar.gz]`            | Extrai arquivos de um arquivo compactado em formato .tar.gz.
+
+`zip -r [arquivo.zip] [diretório]`	    | Cria um arquivo compactado em formato .zip a partir do diretório fornecido.
+
+`unzip [arquivo.zip]`	                  | Extrai arquivos de um arquivo compactado em formato .zip.
+
+`df -h`	                                |  Exibe informações sobre o uso de espaço em disco de todas as partições montadas no sistema.
+
+`free -h`	                              | Exibe informações sobre o uso de memória RAM e swap em um formato mais legível.
+
+`ping [endereço]`	                      |  Verifica a conectividade com um determinado endereço de IP ou host.
+
+`ctrl + c`	                            | Interrompe a execução do comando atual no terminal.
+
+`ctrl + d`	                            |  Fecha o terminal atual (envia um sinal de fim de arquivo).
 
 2. [Sprint 2](/README.md)
 4. [Sprint 3](/README.md)
