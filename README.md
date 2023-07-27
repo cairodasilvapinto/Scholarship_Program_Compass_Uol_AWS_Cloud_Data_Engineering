@@ -7,10 +7,14 @@ Olá sou Cairo da Silva Pinto Tenho 19 anos e moro em Ilha Solteira-SP, estou cu
 ## 1. Sprint 1
 ### Git e GitHub do básico ao avançado (c/ gist e GitHub Pages)
 [Link para certificados e arquivos do sprint 1](/README.md)
-O que é um repositorio? e para que serve?
-o que é git?
-o que é github?
-o que é markdown?
+
+*O que é um repositorio? e para que serve?* Um repositório é um espaço onde são armazenados os arquivos e as informações relacionadas a um projeto ou sistema de controle de versão, como o Git. Ele contém todo o histórico de alterações (commits), bem como as diferentes versões dos arquivos que compõem o projeto. São essenciais para facilitar a colaboração em equipe e manter o controle de versões de um projeto. Eles são fundamentais para o desenvolvimento de software colaborativo, pois permitem que várias pessoas trabalhem no mesmo projeto sem interferir no trabalho umas das outras.
+
+*O que é git?* É um sistema de controle de versão utilizado para o gerenciamento eficiente e seguro de projetos de desenvolvimento de software. Criado em 2005 por Linus Torvalds, o mesmo criador do kernel do Linux, e desde então se tornou um dos sistemas de controle de versão mais populares do mundo.
+
+*O que é github?* O GitHub é uma plataforma de hospedagem e colaboração de código-fonte baseada em Git. Ele fornece uma plataforma na nuvem onde desenvolvedores e equipes podem armazenar, gerenciar e compartilhar seus repositórios Git, facilitando muito o tarbalho de desenvolvimento e controle de versão, testes e etc. Ele permite hospedagem de repositorios, cotrolde de acesso e de problemas(issues), pull requests, reviews de codigo, gists e muito mais.
+
+*O que é markdown?* Markdown é uma linguagem de marcação leve e simples, foi desenvolvida com o objetivo de ser facilmente legível e convertida para HTML sem a necessidade de ferramentas complexas ou editores especiais.
 
 `git init`                              | Inicia um novo repositório Git em um diretório local.
 
