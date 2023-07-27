@@ -73,7 +73,12 @@ O que diferencia o Linux de outros sistemas operacionais é o fato de ser um sof
 
 Uma das características mais marcantes do Linux é sua diversidade de distribuições (distros). Diversos grupos e organizações criam e mantêm diferentes distribuições do Linux com configurações, pacotes e interfaces de usuário variadas. Algumas das distribuições Linux mais populares incluem Ubuntu, Fedora, Debian, CentOS, Linux Mint e muitas outras. Ele se destaca muito pela sua segurança, flexibilidade, estabilidade, sporte da comunidade e por ser open source.
 
+
 *Quais seus principais usou?* Servidores Web, computação em nuvem, Android, desemvolvimento de software, IoT, administração de redes, supercomputadores e mais.
+
+Alguns comandos úteis amplamente usados no terminal do Linux:
+
+
 
 2. [Sprint 2](/README.md)
 4. [Sprint 3](/README.md)
