@@ -6,7 +6,7 @@ Olá sou Cairo da Silva Pinto Tenho 19 anos e moro em Ilha Solteira-SP, estou cu
 # Sprints
 # 1. Sprint 1
 ## Git e GitHub do básico ao avançado (c/ gist e GitHub Pages)
-[Link para certificados e arquivos do sprint 1](/README.md)
+[Link para certificados e arquivos do sprint 1]([/README.md](https://github.com/cairodasilvapinto/bolsaCOMPASS/tree/main/SPRINT1)
 
 *O que é um repositorio? e para que serve?* Um repositório é um espaço onde são armazenados os arquivos e as informações relacionadas a um projeto ou sistema de controle de versão, como o Git. Ele contém todo o histórico de alterações (commits), bem como as diferentes versões dos arquivos que compõem o projeto. São essenciais para facilitar a colaboração em equipe e manter o controle de versões de um projeto. Eles são fundamentais para o desenvolvimento de software colaborativo, pois permitem que várias pessoas trabalhem no mesmo projeto sem interferir no trabalho umas das outras.
 
