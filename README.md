@@ -1,12 +1,12 @@
 
 # Apresentação
 
-Olá sou Cairo da Silva Pinto Tenho 19 anos e moro em Ilha Solteira-SP, estou cursando Sistemas de Informação na UFMS de Três Lagoas, atualmente no quarto semestre. Tenho quatro meses de experiência com desenvolvimento web full stack. Como hobbies, tenho a musculação, que é uma paixão minha. Além disso, sou fascinado por tecnologia. Meus objetivos na trajetória da bolsa são aprender ao máximo e aprimorar minhas habilidades.
+Olá sou Cairo da Silva Pinto tenho 19 anos e moro em Ilha Solteira-SP, estou cursando Sistemas de Informação na UFMS de Três Lagoas, atualmente no quarto semestre. Tenho cinco meses de experiência com desenvolvimento web full stack. Como hobbies, tenho a musculação, que é uma paixão minha. Além disso, sou fascinado por tecnologia. Meus objetivos na trajetória da bolsa são aprender ao máximo e aprimorar minhas habilidades.
 
 # Sprints
 # 1. Sprint 1
 ## Git e GitHub do básico ao avançado (c/ gist e GitHub Pages)
-[Link para certificados e arquivos do sprint 1](https://github.com/cairodasilvapinto/bolsaCOMPASS/tree/main/SPRINT1)
+[Link para certificados e arquivos da sprint 1](https://github.com/cairodasilvapinto/bolsaCOMPASS/tree/main/SPRINT1)
 
 *O que é um repositorio? e para que serve?* Um repositório é um espaço onde são armazenados os arquivos e as informações relacionadas a um projeto ou sistema de controle de versão, como o Git. Ele contém todo o histórico de alterações (commits), bem como as diferentes versões dos arquivos que compõem o projeto. São essenciais para facilitar a colaboração em equipe e manter o controle de versões de um projeto. Eles são fundamentais para o desenvolvimento de software colaborativo, pois permitem que várias pessoas trabalhem no mesmo projeto sem interferir no trabalho umas das outras.
 
@@ -15,6 +15,8 @@ Olá sou Cairo da Silva Pinto Tenho 19 anos e moro em Ilha Solteira-SP, estou cu
 *O que é github?* O GitHub é uma plataforma de hospedagem e colaboração de código-fonte baseada em Git. Ele fornece uma plataforma na nuvem onde desenvolvedores e equipes podem armazenar, gerenciar e compartilhar seus repositórios Git, facilitando muito o tarbalho de desenvolvimento e controle de versão, testes e etc. Ele permite hospedagem de repositorios, cotrolde de acesso e de problemas(issues), pull requests, reviews de codigo, gists e muito mais.
 
 *O que é markdown?* Markdown é uma linguagem de marcação leve e simples, foi desenvolvida com o objetivo de ser facilmente legível e convertida para HTML sem a necessidade de ferramentas complexas ou editores especiais.
+
+Alguns comandos mais usados do git:
 
 `git init`                              | Inicia um novo repositório Git em um diretório local.
 
@@ -65,7 +67,13 @@ Olá sou Cairo da Silva Pinto Tenho 19 anos e moro em Ilha Solteira-SP, estou cu
 `git gc`                                | Executa a coleta de lixo no repositório, compactando e otimizando o banco de dados Git para melhorar o desempenho.
 
 ## Linux para Desenvolvedores (c/ terminal, Shell, Apache e +)
+*o que é linux?*  Linux é um sistema operacional de código aberto baseado no kernel Linux, que foi criado originalmente por Linus Torvalds em 1991. O kernel Linux é o coração do sistema operacional e gerencia o acesso aos recursos de hardware, como processador, memória, dispositivos de entrada/saída e outros componentes essenciais de um computador.
 
+O que diferencia o Linux de outros sistemas operacionais é o fato de ser um software open source. Isso significa que seu código-fonte é acessível e pode ser modificado, melhorado e distribuído livremente por qualquer pessoa sob os termos da Licença Pública Geral GNU (GPL).
+
+Uma das características mais marcantes do Linux é sua diversidade de distribuições (distros). Diversos grupos e organizações criam e mantêm diferentes distribuições do Linux com configurações, pacotes e interfaces de usuário variadas. Algumas das distribuições Linux mais populares incluem Ubuntu, Fedora, Debian, CentOS, Linux Mint e muitas outras. Ele se destaca muito pela sua segurança, flexibilidade, estabilidade, sporte da comunidade e por ser open source.
+
+*Quais seus principais usou?* Servidores Web, computação em nuvem, Android, desemvolvimento de software, IoT, administração de redes, supercomputadores e mais.
 
 2. [Sprint 2](/README.md)
 4. [Sprint 3](/README.md)
