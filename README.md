@@ -3,6 +3,10 @@
 
 Olá sou Cairo da Silva Pinto tenho 19 anos e moro em Ilha Solteira-SP, estou cursando Sistemas de Informação na UFMS de Três Lagoas, atualmente no quarto semestre. Tenho cinco meses de experiência com desenvolvimento web full stack. Como hobbies, tenho a musculação, que é uma paixão minha. Além disso, sou fascinado por tecnologia. Meus objetivos na trajetória da bolsa são aprender ao máximo e aprimorar minhas habilidades.
 
+# Cultura Ágil e Segurança
+## Segurança em Aplicações WEB
+## Métodos ágeis de A a Z: o curso completo
+
 # Sprints
 # 1. Sprint 1
 ## Git e GitHub do básico ao avançado (c/ gist e GitHub Pages)
