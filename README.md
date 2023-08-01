@@ -65,8 +65,8 @@ O Extreme Programming é uma abordagem ágil que busca fornecer software de alta
 
 # Sprints
 # 1. Sprint 1
-## Git e GitHub do básico ao avançado (c/ gist e GitHub Pages)
 [Link para certificados e arquivos da sprint 1](https://github.com/cairodasilvapinto/bolsaCOMPASS/tree/main/SPRINT1)
+## Git e GitHub do básico ao avançado (c/ gist e GitHub Pages)
 
 *O que é um repositorio? e para que serve?* Um repositório é um espaço onde são armazenados os arquivos e as informações relacionadas a um projeto ou sistema de controle de versão, como o Git. Ele contém todo o histórico de alterações (commits), bem como as diferentes versões dos arquivos que compõem o projeto. São essenciais para facilitar a colaboração em equipe e manter o controle de versões de um projeto. Eles são fundamentais para o desenvolvimento de software colaborativo, pois permitem que várias pessoas trabalhem no mesmo projeto sem interferir no trabalho umas das outras.
 
@@ -186,5 +186,81 @@ Alguns comandos úteis amplamente usados no terminal do Linux:
 
 `ctrl + d`	                            |  Fecha o terminal atual (envia um sinal de fim de arquivo).
 
-2. [Sprint 2](/README.md)
-4. [Sprint 3](/README.md)
+# 2. Sprint 2
+[Link para certificados e arquivos da sprint 2](https://github.com/cairodasilvapinto/bolsaCOMPASS/tree/main/SPRINT2)
+## Conceitos de Data & Analytics I
+### Big Data:
+O conceito de Big Data refere-se a grandes volumes de dados que exigem formas inovadoras de processamento e podem ser usados para resolver problemas de negócios. Segundo o Gartner, Big Data é caracterizado pelos 3 Vs: volume, velocidade e variedade.
+
+O volume diz respeito à quantidade de dados, que pode variar de terabytes a petabytes. A velocidade refere-se à velocidade com que os dados são recebidos e precisam ser processados em tempo hábil. Já a variedade diz respeito aos diferentes tipos de dados disponíveis, incluindo dados estruturados e não estruturados.
+
+O surgimento do Big Data foi impulsionado pelo aumento da geração de dados por meio de plataformas escaláveis, como redes sociais e dispositivos conectados à Internet. O desenvolvimento de tecnologias como o Hadoop e o NoSQL facilitou o armazenamento e análise de grandes conjuntos de dados.
+
+A importância do Big Data não está apenas na quantidade de dados que uma empresa possui, mas sim no que ela faz com esses dados. A análise de Big Data pode ajudar as empresas a reduzir custos, economizar tempo, desenvolver novos produtos, otimizar ofertas e tomar decisões mais inteligentes.
+
+Em resumo, o Big Data é um conjunto de dados volumosos, de alta velocidade e/ou alta variedade, que requerem formas inovadoras de processamento e podem ser utilizados para obter insights e solucionar problemas de negócios
+
+### Ciência de Dados:
+A Ciência de Dados é uma área interdisciplinar que envolve o estudo e a análise de dados, estruturados ou não, com o objetivo de extrair conhecimento e insights para tomadas de decisão. Ela combina técnicas de análise de dados, como mineração de dados e aprendizado de máquina, com conhecimentos de estatística, matemática, ciência da computação e outras disciplinas relacionadas.
+
+A Ciência de Dados é impulsionada pelo surgimento do Big Data, que proporciona o acesso a grandes volumes de dados de diversas fontes, como redes sociais, dispositivos conectados e transações comerciais. Esses dados são processados e analisados para identificar padrões, tendências e relações que possam ser utilizados para melhorar processos, desenvolver produtos, otimizar estratégias de negócios e tomar decisões mais informadas.
+
+Os profissionais de Ciência de Dados, conhecidos como Cientistas de Dados, possuem uma ampla gama de habilidades, incluindo conhecimentos em programação, estatística, modelagem, análise de dados, machine learning e bancos de dados. Eles trabalham em colaboração com equipes multidisciplinares, como engenheiros de dados, arquitetos de soluções e desenvolvedores, para coletar, limpar, processar e analisar os dados de forma eficiente.
+
+A Ciência de Dados tem se tornado cada vez mais relevante para as empresas, pois permite transformar grandes quantidades de dados brutos em insights valiosos. Com esses insights, as empresas podem tomar decisões mais embasadas, identificar oportunidades de negócio, melhorar a eficiência operacional e oferecer produtos e serviços mais personalizados aos clientes.
+
+Em resumo, a Ciência de Dados é uma disciplina que utiliza técnicas de análise de dados para extrair conhecimento e insights a partir de grandes volumes de dados, com o objetivo de melhorar processos, tomar decisões mais informadas e impulsionar o sucesso das empresas.
+
+### Diferença entre papeis envolvidos em Big Data:
+A diferenciação entre os diferentes papéis envolvidos no campo do Big Data. O principal papel discutido é o do Cientista de Dados, que é um profissional com uma sólida formação em áreas como ciência da computação, estatística, modelagem, análise de dados, matemática, machine learning, entre outros.
+
+O Cientista de Dados é responsável por lidar com a vasta quantidade de conhecimentos necessários para trabalhar com Big Data, e pode ter especializações em áreas específicas de interesse, o que facilita a estruturação de trilhas de estudos.
+
+Além do Cientista de Dados, existem outros papéis importantes no processamento e análise de dados, como o Arquiteto de Soluções para Dados, o Engenheiro de Dados e os Desenvolvedores. O Arquiteto de Soluções para Dados é responsável por projetar e implementar a infraestrutura necessária para o processamento e armazenamento de dados. O Engenheiro de Dados é responsável por coletar, limpar e transformar os dados para que possam ser utilizados na análise. Os Desenvolvedores são responsáveis por criar e implementar algoritmos e modelos de análise de dados.
+
+Esses diferentes papéis trabalham em colaboração para coletar, processar, analisar e interpretar os dados, a fim de extrair insights e conhecimentos valiosos para as empresas. Cada papel desempenha uma função específica e contribui para o sucesso do projeto de Big Data.
+
+### Tipos de Dados (estruturado, semi e não estruturado):
+Existem três principais tipos de dados: estruturados, semi-estruturados e não estruturados.
+
+Dados estruturados são aqueles que possuem uma organização predefinida e seguem um formato específico. Eles são armazenados em tabelas com colunas e linhas, como em um banco de dados relacional. Exemplos de dados estruturados incluem informações em planilhas, registros em bancos de dados e dados numéricos.
+
+Dados semi-estruturados são aqueles que não possuem uma estrutura rígida, mas ainda possuem algum nível de organização. Eles podem ser representados em formatos como XML (Extensible Markup Language) e JSON (JavaScript Object Notation). Esses formatos permitem que os dados sejam agrupados e organizados de forma hierárquica, mas sem a necessidade de uma estrutura fixa. Exemplos de dados semi-estruturados incluem documentos HTML, feeds de RSS e arquivos de log.
+
+Dados não estruturados são aqueles que não possuem uma estrutura definida e não podem ser facilmente organizados em tabelas ou formatos hierárquicos. Eles são mais complexos de serem processados e analisados, pois podem incluir texto livre, imagens, áudio, vídeo e outros tipos de mídia. Exemplos de dados não estruturados incluem e-mails, posts em redes sociais, vídeos do YouTube e imagens digitais.
+
+A compreensão dos diferentes tipos de dados é fundamental para o processamento e análise eficiente de Big Data, pois cada tipo requer abordagens e técnicas específicas. A capacidade de lidar com dados estruturados, semi-estruturados e não estruturados é essencial para extrair insights valiosos e tomar decisões informadas a partir de grandes volumes de dados.
+
+### Banco de dados (RDBMS vs NoSQL):
+A diferenças entre os bancos de dados relacionais (RDBMS) e os bancos de dados NoSQL. Os bancos de dados relacionais seguem o modelo relacional de dados, com tabelas, colunas e relacionamentos definidos. Eles são adequados para aplicações que exigem consistência transacional e consultas complexas. Exemplos de bancos de dados relacionais incluem MySQL, Oracle e SQL Server.
+
+Por outro lado, os bancos de dados NoSQL são projetados para atender às necessidades de aplicações que exigem escalabilidade horizontal, desempenho superior e flexibilidade de esquema. Eles não seguem o modelo relacional e podem ser classificados em diferentes tipos, como chave-valor, orientado a documentos, orientado a colunas e orientado a grafos. Exemplos de bancos de dados NoSQL incluem MongoDB, Cassandra e Redis.
+
+Uma das principais diferenças entre os dois tipos de bancos de dados é a linguagem de consulta. Os bancos de dados relacionais utilizam a linguagem SQL (Structured Query Language), que é uma linguagem de consulta estruturada e amplamente conhecida. Já os bancos de dados NoSQL podem ter suas próprias linguagens de consulta ou podem usar formatos como JSON para consultas.
+
+Outra diferença significativa é o modelo de consistência. Os bancos de dados relacionais seguem o modelo ACID (Atomicidade, Consistência, Isolamento e Durabilidade), que garante transações completas e consistentes. Já os bancos de dados NoSQL geralmente seguem o modelo BASE (Basicamente Disponível, Estado Leve e Eventualmente Consistente), que prioriza a disponibilidade e a escalabilidade em detrimento da consistência imediata.
+
+A escolha entre um banco de dados relacional e um banco de dados NoSQL depende das necessidades específicas da aplicação. Os bancos de dados relacionais são mais adequados para aplicações com transações complexas e necessidade de consistência transacional. Já os bancos de dados NoSQL são mais adequados para aplicações que exigem escalabilidade horizontal.
+
+### Tipos de armazenamentos de dados:
+Existem diferentes formatos utilizados para armazenar dados em arquivos. Alguns dos formatos mais comuns incluem TXT, CSV, XML, JSON, ORC, PARQUET e AVRO.
+
+O formato TXT é um arquivo de texto simples, que pode ser lido e aberto por qualquer programa que leia texto. É facilmente editável, permitindo alterações diretas no conteúdo.
+
+O formato CSV (Comma-Separated Values) é um arquivo de texto delimitado que usa vírgulas para separar os valores. É amplamente utilizado para armazenar dados tabulares, com cada linha representando um registro e os campos separados por vírgulas.
+
+O formato XML (Extensible Markup Language) é um formato de arquivo de texto que utiliza uma linguagem de marcação para organizar dados hierarquicamente. É comumente usado para criar documentos com dados estruturados, como texto formatado, imagens vetoriais ou bancos de dados.
+
+O formato JSON (JavaScript Object Notation) é um formato de arquivo de texto que utiliza uma sintaxe leve para representar dados estruturados. É amplamente utilizado para armazenar e transmitir dados entre sistemas, sendo especialmente adequado para aplicações web.
+
+Os formatos ORC, PARQUET e AVRO são formatos de armazenamento de dados otimizados para processamento e análise eficientes em sistemas de Big Data. Esses formatos oferecem compressão, particionamento e esquemas de dados avançados, permitindo consultas rápidas e eficientes em grandes volumes de dados.
+
+### Data Lake (Arquitetura Lambda):
+A arquitetura Lambda proposta por Nathan Marz é um modelo teórico para a construção de sistemas de Big Data. Essa arquitetura é dividida em três camadas: batch layer, speed layer e serving layer. Na batch layer, os dados são armazenados de forma atômica e processados para gerar visualizações pré-calculadas. A speed layer processa os dados em tempo real e os disponibiliza enquanto aguarda a atualização da batch layer. A serving layer fornece acesso aos dados processados para os sistemas finais. Essa arquitetura permite processar grandes volumes de dados, manter a estrutura original dos dados na batch layer e entregar informações em tempo real através da speed layer.
+
+
+
+
+
+
+3. [Sprint 3]
