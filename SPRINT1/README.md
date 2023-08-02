@@ -5,5 +5,5 @@
 - Linux para Desenvolvedores (c/ terminal, Shell, Apache e +)
 ![Linux para Desenvolvedores (c/ terminal, Shell, Apache e +)](<Linux para Desenvolvedores (c terminal, Shell, Apache e +).jpg>)
 
-- Certificado de cunclução da sprint 1
+- Certificado de conclução da sprint 1
 ![Certificado de cunclusão da sprint 1](<Data & Analytics - PB - AWS sprint1.jpg>)
