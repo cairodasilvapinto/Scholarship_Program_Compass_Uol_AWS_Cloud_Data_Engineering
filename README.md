@@ -7,15 +7,13 @@ Olá sou Cairo da Silva Pinto tenho 19 anos e moro em Ilha Solteira-SP, estou cu
 ## Segurança em Aplicações WEB
 ## Métodos ágeis de A a Z: o curso completo
 ### Gestão de projeto: do método tradicional ao ágil
-
+[Certificado Métodos ágeis de A a Z: o curso completo](https://udemy-certificate.s3.amazonaws.com/image/UC-4fe3a376-3ead-4a4e-8236-f7df761d8f71.jpg?v=1690983687000)
 - Método Tradicional: O gerenciamento de projetos tradicional, também conhecido como abordagem cascata ou waterfall, é caracterizado por fases sequenciais e rígidas, onde o projeto é dividido em etapas bem definidas, como planejamento, execução, monitoramento e encerramento. As decisões são tomadas antecipadamente e as mudanças são difíceis de incorporar após o início do projeto. Essa abordagem funciona melhor para projetos estáveis e previsíveis.
-
 - Método Ágil: O gerenciamento ágil de projetos é uma abordagem adaptativa e flexível, que valoriza a colaboração, a entrega incremental e a resposta rápida às mudanças. É baseado em princípios ágeis, como o Manifesto Ágil, e utiliza metodologias como Scrum e Kanban. As equipes trabalham em ciclos curtos, entregando incrementos do produto em intervalos frequentes, permitindo assim a obtenção de feedback constante dos clientes e stakeholders para orientar a evolução do projeto.
 
 ### Mundo VUCA e Mundo BANI:
 
 - Mundo VUCA: VUCA é um acrônimo das palavras Volátil, Incerto, Complexo e Ambíguo. Esse termo descreve a natureza do ambiente atual de negócios e projetos, onde as condições são marcadas por mudanças rápidas e imprevisíveis. O mundo VUCA exige que as organizações e os profissionais se adaptem constantemente a novas circunstâncias, sejam ágeis na tomada de decisões e estejam preparados para lidar com complexidades e ambiguidades.
-
 - Mundo BANI: BANI é outro acrônimo das palavras Frágil, Ansioso, Não Linear e Incompreensível. Esse conceito foi proposto como uma atualização do VUCA, levando em conta as mudanças sociais e tecnológicas ainda mais aceleradas. No mundo BANI, as estruturas e sistemas podem ser mais frágeis e sujeitos a falhas, a ansiedade prevalece devido à incerteza constante, as relações de causa e efeito são menos lineares e as situações podem ser tão complexas que são difíceis de serem compreendidas em sua totalidade.
 
 Em resumo, a transição do método tradicional para o ágil se torna cada vez mais relevante no mundo VUCA e, especialmente, no mundo BANI, pois as abordagens ágeis permitem maior adaptabilidade e resposta às rápidas mudanças e complexidades que enfrentamos hoje.
@@ -24,11 +22,8 @@ Em resumo, a transição do método tradicional para o ágil se torna cada vez m
 é um documento criado em fevereiro de 2001 por um grupo de 17 especialistas em desenvolvimento de software, que se reuniram em Utah, EUA. Esses profissionais representavam diferentes abordagens de desenvolvimento de software, como Scrum, XP, entre outras. O objetivo do manifesto era estabelecer valores e princípios comuns que fundamentassem uma nova abordagem de desenvolvimento ágil de software. Ele é composto por quatro valores e doze princípios, que enfatizam a importância de responder a mudanças, de promover a colaboração entre indivíduos e equipes, de entregar valor funcional de forma rápida e contínua, e de focar nas necessidades do cliente. Os quatro valores do Manifesto Ágil são os seguintes:
 
 1. Indivíduos e interações acima de processos e ferramentas: Valoriza a importância da comunicação e colaboração entre as pessoas envolvidas no projeto, enfatizando que a interação direta é mais eficiente do que depender excessivamente de processos ou ferramentas.
-
 2. Software funcionando acima de documentação abrangente: Dá prioridade à entrega de software funcional, que atenda às necessidades do cliente, em vez de se concentrar em extensa documentação, que pode se tornar obsoleta rapidamente.
-
 3. Colaboração com o cliente acima de negociação de contratos: Enfatiza a importância de envolver o cliente ou usuário final ao longo do processo de desenvolvimento, buscando feedback constante para garantir a satisfação do cliente e o alinhamento com suas necessidades.
-
 4. Responder a mudanças acima de seguir um plano: Reconhece que, em ambientes complexos e dinâmicos, a capacidade de se adaptar a mudanças é fundamental para o sucesso do projeto. Em vez de se apegar rigidamente a planos pré-definidos, o foco deve ser na flexibilidade e na capacidade de responder rapidamente às mudanças.
 
 As práticas e metodologias ágeis, como Scrum, Kanban, Lean e XP, se baseiam nesses fundamentos. O Manifesto Ágil promoveu uma cultura de adaptabilidade, trabalho em equipe e entrega contínua de valor em várias áreas de negócios e projetos.
@@ -81,7 +76,7 @@ Os principais componentes do Modelo Spotify Squads são:
 - Chapters (Capítulos): São comunidades de profissionais que compartilham a mesma especialidade, independentemente de estarem em Squads ou Tribes diferentes. Os Capítulos ajudam a garantir o crescimento profissional e o intercâmbio de conhecimento entre os membros.
 - Guilds (Guildas): São grupos de interesse ou comunidades de prática que reúnem pessoas de diferentes Tribes e Capítulos que têm interesses ou habilidades comuns. As Guilds promovem a colaboração e o aprendizado entre os membros.
 - Tribe Leads e Squad Leads: São líderes que têm a responsabilidade de garantir que suas Tribes e Squads alcancem seus objetivos e forneçam valor aos clientes. Eles também atuam como facilitadores e apoiam o crescimento e o desenvolvimento das equipes.
-- 
+
 O Modelo Spotify Squads promove uma cultura de autonomia, colaboração e aprendizado contínuo. Ele permite que as equipes sejam ágeis e responsivas às mudanças, ao mesmo tempo que mantêm um foco claro nos objetivos da empresa e nas necessidades dos clientes.
 
 #### SMART
@@ -129,6 +124,9 @@ São os conjuntos específicos de pessoas ou indivíduos que compartilham intere
 
 **Jornada do Usuário**
 A jornada do usuário é uma ferramenta valiosa para compreender a perspectiva e a experiência do cliente, permitindo que as empresas identifiquem pontos de contato críticos e oportunidades de melhoria em todo o ciclo de vida do cliente. Ela é frequentemente utilizada em marketing, UX e desenvolvimento de produtos, com o objetivo de criar uma experiência mais positiva e satisfatória para o cliente. Ao mapear a jornada do usuário, as empresas podem identificar pontos de farqueza, fricção ou insatisfação ao longo do processo e, assim, implementar melhorias para aprimorar a experiência do cliente. A compreensão dessas etapas também ajuda na criação de estratégias mais eficazes de marketing, atendimento ao cliente e desenvolvimento de produtos, contribuindo para a conquista e retenção de clientes.
+
+**storyboard**
+Um storyboard, usado muito na gestão de projetos é uma sequência de ilustrações ou esboços organizados em uma estrutura visual, semelhante a um quadrinho, usado para planejar ou contar uma história, é uma forma de pré-visualização, onde as cenas são representadas em uma sequência lógica para comunicar a história. É uma ferramenta essencialmente visual que ajuda a visualizar uma narrativa, seja para filmes, animações, vídeos, quadrinhos, jogos, telas de sites ou qualquer outra forma de mídia que envolva uma sequência de eventos ou cenas. Ele permite que a equipe criativa tenha uma visão geral do projeto antes de iniciar a produção completa em qualquer etapa do projeto, ajudando a economizar tempo e recursos ao planejar cuidadosamente cada aspecto da história.
 
 # Sprints
 # 1. Sprint 1
