@@ -8,6 +8,8 @@ Olá sou Cairo da Silva Pinto tenho 19 anos e moro em Ilha Solteira-SP, estou cu
 ## Métodos ágeis de A a Z: o curso completo
 ### Gestão de projeto: do método tradicional ao ágil
 [Certificado Métodos ágeis de A a Z: o curso completo](https://udemy-certificate.s3.amazonaws.com/image/UC-4fe3a376-3ead-4a4e-8236-f7df761d8f71.jpg?v=1690983687000)
+![image](https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/b275d5c4-bfd7-4a8d-a3c4-6b766a170eda)
+
 - Método Tradicional: O gerenciamento de projetos tradicional, também conhecido como abordagem cascata ou waterfall, é caracterizado por fases sequenciais e rígidas, onde o projeto é dividido em etapas bem definidas, como planejamento, execução, monitoramento e encerramento. As decisões são tomadas antecipadamente e as mudanças são difíceis de incorporar após o início do projeto. Essa abordagem funciona melhor para projetos estáveis e previsíveis.
 - Método Ágil: O gerenciamento ágil de projetos é uma abordagem adaptativa e flexível, que valoriza a colaboração, a entrega incremental e a resposta rápida às mudanças. É baseado em princípios ágeis, como o Manifesto Ágil, e utiliza metodologias como Scrum e Kanban. As equipes trabalham em ciclos curtos, entregando incrementos do produto em intervalos frequentes, permitindo assim a obtenção de feedback constante dos clientes e stakeholders para orientar a evolução do projeto.
 
