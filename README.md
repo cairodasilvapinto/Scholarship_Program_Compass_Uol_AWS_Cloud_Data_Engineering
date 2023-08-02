@@ -4,10 +4,10 @@
 Olá sou Cairo da Silva Pinto tenho 19 anos e moro em Ilha Solteira-SP, estou cursando Sistemas de Informação na UFMS de Três Lagoas, atualmente no quarto semestre. Tenho cinco meses de experiência com desenvolvimento web full stack. Como hobbies, tenho a musculação, que é uma paixão minha. Além disso, sou fascinado por tecnologia. Meus objetivos na trajetória da bolsa são aprender ao máximo e aprimorar minhas habilidades.
 
 # Cultura Ágil e Segurança
+[Certificados de Cultura Ágil e Segurança](https://github.com/cairodasilvapinto/bolsaCOMPASS/tree/main/Cultura%20%C3%81gil%20e%20Seguran%C3%A7a)
 ## Segurança em Aplicações WEB
 ## Métodos ágeis de A a Z: o curso completo
 ### Gestão de projeto: do método tradicional ao ágil
-[Certificados de Cultura Ágil e Segurança](https://github.com/cairodasilvapinto/bolsaCOMPASS/tree/main/Cultura%20%C3%81gil%20e%20Seguran%C3%A7a)
 
 - Método Tradicional: O gerenciamento de projetos tradicional, também conhecido como abordagem cascata ou waterfall, é caracterizado por fases sequenciais e rígidas, onde o projeto é dividido em etapas bem definidas, como planejamento, execução, monitoramento e encerramento. As decisões são tomadas antecipadamente e as mudanças são difíceis de incorporar após o início do projeto. Essa abordagem funciona melhor para projetos estáveis e previsíveis.
 - Método Ágil: O gerenciamento ágil de projetos é uma abordagem adaptativa e flexível, que valoriza a colaboração, a entrega incremental e a resposta rápida às mudanças. É baseado em princípios ágeis, como o Manifesto Ágil, e utiliza metodologias como Scrum e Kanban. As equipes trabalham em ciclos curtos, entregando incrementos do produto em intervalos frequentes, permitindo assim a obtenção de feedback constante dos clientes e stakeholders para orientar a evolução do projeto.
