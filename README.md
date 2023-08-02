@@ -330,8 +330,10 @@ Os formatos ORC, PARQUET e AVRO são formatos de armazenamento de dados otimizad
 A arquitetura Lambda proposta por Nathan Marz é um modelo teórico para a construção de sistemas de Big Data. Essa arquitetura é dividida em três camadas: batch layer, speed layer e serving layer. Na batch layer, os dados são armazenados de forma atômica e processados para gerar visualizações pré-calculadas. A speed layer processa os dados em tempo real e os disponibiliza enquanto aguarda a atualização da batch layer. A serving layer fornece acesso aos dados processados para os sistemas finais. Essa arquitetura permite processar grandes volumes de dados, manter a estrutura original dos dados na batch layer e entregar informações em tempo real através da speed layer.
 
 
-
-
-
+### SQL para Análise de Dados: Do Basico ao avançado
+#### comandos básicos
+´´´sql
+  select
+´´´
 
 3. [Sprint 3]
