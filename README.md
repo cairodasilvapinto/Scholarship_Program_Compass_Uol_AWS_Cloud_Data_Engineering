@@ -106,6 +106,7 @@ O objetivo do Moodboard é fornecer uma referência visual clara e compartilhar 
 Ao criar um Moodboard, é importante garantir que as imagens e elementos visuais selecionados estejam alinhados com a visão do projeto e transmitam a mensagem correta aos envolvidos. Ele serve como uma ferramenta poderosa para a comunicação visual, facilitando o processo de desenvolvimento e permitindo que todas as partes interessadas tenham uma visão clara e compartilhada do conceito a ser criado.
 
 **Mapa Mental**: 
+
 As características principais dos mapas mentais de Tony Buzan são:
 
 - Centralidade: O mapa mental começa com uma palavra ou imagem central que representa o tema ou conceito principal. Essa palavra ou imagem fica no centro do mapa.
@@ -116,17 +117,21 @@ As características principais dos mapas mentais de Tony Buzan são:
 
 A técnica do mapa mental de Tony Buzan se tornou amplamente popular e é amplamente utilizada em diversas áreas, como educação, negócios, planejamento, resolução de problemas, anotações, entre outros. Sua abordagem proporcionou uma maneira eficaz de organizar e explorar informações de forma criativa, tornando-se uma ferramenta valiosa para melhorar a aprendizagem e a produtividade.
 
-**Persona e Mapa de Empatia**: 
+**Persona e Mapa de Empatia**:
+
 - Persona é uma representação fictícia e detalhada de um cliente ideal ou usuário típico do produto ou serviço que está sendo desenvolvido. É uma técnica de criação de personagens que ajuda a humanizar e personificar os dados demográficos e comportamentais do público-alvo.
 - Mapa de Empatia é uma ferramenta visual que ajuda a compreender melhor as necessidades, desejos, emoções e comportamentos do público-alvo. Ele coloca o criador no lugar do cliente ou usuário, permitindo que ele entenda suas perspectivas, motivações e frustrações.
 
 **Grupos de Usuários**
+
 São os conjuntos específicos de pessoas ou indivíduos que compartilham interesses, necessidades ou características comuns em relação a um determinado produto, serviço ou projeto. Esses grupos desempenham um papel essencial na análise, desenvolvimento e melhoria contínua de produtos e serviços.
 
 **Jornada do Usuário**
+
 A jornada do usuário é uma ferramenta valiosa para compreender a perspectiva e a experiência do cliente, permitindo que as empresas identifiquem pontos de contato críticos e oportunidades de melhoria em todo o ciclo de vida do cliente. Ela é frequentemente utilizada em marketing, UX e desenvolvimento de produtos, com o objetivo de criar uma experiência mais positiva e satisfatória para o cliente. Ao mapear a jornada do usuário, as empresas podem identificar pontos de farqueza, fricção ou insatisfação ao longo do processo e, assim, implementar melhorias para aprimorar a experiência do cliente. A compreensão dessas etapas também ajuda na criação de estratégias mais eficazes de marketing, atendimento ao cliente e desenvolvimento de produtos, contribuindo para a conquista e retenção de clientes.
 
 **storyboard**
+
 Um storyboard, usado muito na gestão de projetos é uma sequência de ilustrações ou esboços organizados em uma estrutura visual, semelhante a um quadrinho, usado para planejar ou contar uma história, é uma forma de pré-visualização, onde as cenas são representadas em uma sequência lógica para comunicar a história. É uma ferramenta essencialmente visual que ajuda a visualizar uma narrativa, seja para filmes, animações, vídeos, quadrinhos, jogos, telas de sites ou qualquer outra forma de mídia que envolva uma sequência de eventos ou cenas. Ele permite que a equipe criativa tenha uma visão geral do projeto antes de iniciar a produção completa em qualquer etapa do projeto, ajudando a economizar tempo e recursos ao planejar cuidadosamente cada aspecto da história.
 
 # Sprints
