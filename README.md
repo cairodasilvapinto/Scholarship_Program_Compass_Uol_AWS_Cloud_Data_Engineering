@@ -33,9 +33,9 @@ Em resumo, a transição do método tradicional para o ágil se torna cada vez m
 
 As práticas e metodologias ágeis, como Scrum, Kanban, Lean e XP, se baseiam nesses fundamentos. O Manifesto Ágil promoveu uma cultura de adaptabilidade, trabalho em equipe e entrega contínua de valor em várias áreas de negócios e projetos.
 
-*O que é Scrum?* É um framework que permite que equipes desenvolvam, entreguem e melhorem produtos complexos de forma iterativa e incremental. Foi originalmente criado para o desenvolvimento de software, mas hoje é amplamente utilizado em diversas áreas, como marketing, engenharia, desenvolvimento de produtos e muito mais. O Scrum é baseado em alguns conceitos-chave: Scrum Team, Sprints, Product Backlog, Sprint Backlog, Daily Scrum, Sprint Review, Sprint Retrospective, essência mas de acordo com as necessidades e variáveis dentro da empresa os conceitos podem se adaptar. O Scrum oferece uma abordagem flexível e iterativa para o gerenciamento de projetos, permitindo que as equipes respondam rapidamente a mudanças e entreguem valor em curtos períodos de tempo. Através do foco na transparência, inspeção e adaptação contínua, o Scrum busca maximizar a eficiência da equipe e a satisfação do cliente ao longo do processo de desenvolvimento do produto.
+**O que é Scrum?** É um framework que permite que equipes desenvolvam, entreguem e melhorem produtos complexos de forma iterativa e incremental. Foi originalmente criado para o desenvolvimento de software, mas hoje é amplamente utilizado em diversas áreas, como marketing, engenharia, desenvolvimento de produtos e muito mais. O Scrum é baseado em alguns conceitos-chave: Scrum Team, Sprints, Product Backlog, Sprint Backlog, Daily Scrum, Sprint Review, Sprint Retrospective, essência mas de acordo com as necessidades e variáveis dentro da empresa os conceitos podem se adaptar. O Scrum oferece uma abordagem flexível e iterativa para o gerenciamento de projetos, permitindo que as equipes respondam rapidamente a mudanças e entreguem valor em curtos períodos de tempo. Através do foco na transparência, inspeção e adaptação contínua, o Scrum busca maximizar a eficiência da equipe e a satisfação do cliente ao longo do processo de desenvolvimento do produto.
 
-*O que é Kanban?* O Kanban utiliza um quadro visual, geralmente dividido em colunas, para representar o fluxo de trabalho do projeto ou processo. Cada item de trabalho é representado por um cartão ou post-it e é movido ao longo do quadro à medida que progride no processo, desde o início até a conclusão. As colunas podem ser personalizadas de acordo com as etapas do fluxo de trabalho específicas da equipe ou projeto.
+**O que é Kanban?** O Kanban utiliza um quadro visual, geralmente dividido em colunas, para representar o fluxo de trabalho do projeto ou processo. Cada item de trabalho é representado por um cartão ou post-it e é movido ao longo do quadro à medida que progride no processo, desde o início até a conclusão. As colunas podem ser personalizadas de acordo com as etapas do fluxo de trabalho específicas da equipe ou projeto.
 Os princípios fundamentais do Kanban incluem:
 1. Visualização do Trabalho: O quadro Kanban proporciona uma visão clara do trabalho em andamento, permitindo que todos na equipe acompanhem o progresso das tarefas.
 2. Limite de Trabalho em Progresso (WIP - Work in Progress): O Kanban incentiva a limitação da quantidade de trabalho em andamento em cada etapa do processo. Isso ajuda a evitar sobrecarregar a equipe e a identificar gargalos no fluxo de trabalho.
@@ -43,10 +43,10 @@ Os princípios fundamentais do Kanban incluem:
 4. Feedback Contínuo e Melhoria: O Kanban promove a melhoria contínua, incentivando a equipe a revisar regularmente o processo e buscar maneiras de otimizar o fluxo de trabalho.
 O Kanban é particularmente útil para equipes que trabalham com demandas variáveis ou que precisam lidar com tarefas emergentes. Ele oferece maior flexibilidade em relação a prazos e prioridades, permitindo que as equipes respondam rapidamente a mudanças nas necessidades do cliente ou nas condições do mercado.
 
-*O que é Lean?* O Lean também conhecico como Lean Thinking ou Pensamento Enxuto, o conceito central do Lean é eliminar desperdícios e criar valor para o cliente, com o objetivo de otimizar o desempenho e a eficiência de um sistema ou processo. O Lean pode ser aplicado não apenas na indústria automobilística, mas em várias áreas, incluindo manufatura, serviços, saúde, tecnologia da informação, entre outros. A filosofia dele visa criar sistemas eficientes, com foco no cliente e adaptados às mudanças, resultando em maior produtividade, qualidade, redução de custos e satisfação do cliente. Além disso, o Lean incentiva a participação e o envolvimento de todos os funcionários, promovendo uma cultura de melhoria contínua e aprendizado.
+**O que é Lean?** O Lean também conhecico como Lean Thinking ou Pensamento Enxuto, o conceito central do Lean é eliminar desperdícios e criar valor para o cliente, com o objetivo de otimizar o desempenho e a eficiência de um sistema ou processo. O Lean pode ser aplicado não apenas na indústria automobilística, mas em várias áreas, incluindo manufatura, serviços, saúde, tecnologia da informação, entre outros. A filosofia dele visa criar sistemas eficientes, com foco no cliente e adaptados às mudanças, resultando em maior produtividade, qualidade, redução de custos e satisfação do cliente. Além disso, o Lean incentiva a participação e o envolvimento de todos os funcionários, promovendo uma cultura de melhoria contínua e aprendizado.
 Seus principais fundamentos são: Identificar Valor, Mapear o Fluxo de Valor, Criar Fluxo Contínuo, Produzir de Acordo com a Demanda e Buscar a Perfeição.
 
-*O que é XP?* Ela foi concebida para melhorar a qualidade do software e a produtividade da equipe, enfatizando práticas de desenvolvimento que valorizam a simplicidade, a comunicação eficiente e a resposta rápida às mudanças.
+**O que é XP?** Ela foi concebida para melhorar a qualidade do software e a produtividade da equipe, enfatizando práticas de desenvolvimento que valorizam a simplicidade, a comunicação eficiente e a resposta rápida às mudanças.
 XP tem como base cinco valores fundamentais:
 1. Comunicação: Incentiva a comunicação frequente e eficiente entre todos os membros da equipe, bem como com os clientes e stakeholders, para garantir que todos entendam os requisitos e objetivos do projeto.
 2. Simplicidade: Defende a ideia de que o código deve ser simples, direto e fácil de entender. A simplicidade reduz a complexidade e torna o software mais fácil de ser mantido e modificado.
@@ -62,19 +62,86 @@ XP se baseia em práticas específicas para apoiar esses valores, incluindo:
 
 O Extreme Programming é uma abordagem ágil que busca fornecer software de alta qualidade, adaptado às mudanças e que atenda às necessidades do cliente de forma eficiente. As práticas XP podem ser adaptadas e combinadas com outras metodologias ágeis para atender às necessidades específicas de cada projeto e equipe.
 
+#### Design Sprint Google
+O Design Sprint da Google é geralmente realizado em cinco etapas durante um período de cinco dias:
+
+1. *Segunda, Entendimento*: A equipe se reúne para compreender profundamente o problema ou desafio a ser resolvido. Isso envolve a análise de informações relevantes, realização de pesquisas com usuários e a identificação das metas a serem alcançadas.
+2. *Terça, Ideação*: Os membros da equipe geram uma grande quantidade de ideias para resolver o problema. Essa etapa é focada na criatividade e na diversidade de perspectivas, e nenhuma ideia é descartada inicialmente.
+3. *Quarta, Decisão*: As ideias geradas são revisadas e discutidas pela equipe. Após uma análise detalhada, as melhores ideias são selecionadas e refinadas para formar uma única solução que será prototipada.
+4. *Quinta, Prototipagem*: Com a solução escolhida, a equipe cria um protótipo de baixa fidelidade que simula o funcionamento da solução final. O protótipo pode ser feito de várias formas, como desenhos, wireframes, maquetes ou mesmo um protótipo digital interativo.
+5. *Sexta, Teste*: O protótipo é testado com usuários reais para obter feedback valioso. Esses testes podem ser feitos em pessoas que fazem parte do público-alvo do produto ou serviço. O objetivo é validar a solução, identificar possíveis problemas e fazer ajustes antes de iniciar a implementação completa.
+Ela permite que as equipes superem a indecisão, economizem tempo e recursos e obtenham insights valiosos dos usuários antes de comprometerem-se com a implementação completa de uma ideia. Além disso, essa abordagem ajuda a eliminar suposições e riscos, uma vez que as decisões são baseadas em testes reais.
+
+#### Modelo Spotify Squads
+O modelo se baseia em um conjunto de princípios ágeis e é projetado para se adaptar às necessidades e tamanho da organização, promovendo a descentralização do poder de decisão e a capacidade de resposta rápida às mudanças.
+Os principais componentes do Modelo Spotify Squads são:
+
+- Squads: São equipes pequenas e multidisciplinares, compostas por profissionais de diferentes áreas, como desenvolvedores, designers e especialistas em produto. Cada Squad é responsável por uma parte específica do produto ou funcionalidade.
+- Tribes (Tribos): São agrupamentos de Squads que compartilham um propósito comum, geralmente relacionado a uma área ou tema específico. As Tribes são formadas para promover a colaboração entre equipes que trabalham em áreas relacionadas.
+- Chapters (Capítulos): São comunidades de profissionais que compartilham a mesma especialidade, independentemente de estarem em Squads ou Tribes diferentes. Os Capítulos ajudam a garantir o crescimento profissional e o intercâmbio de conhecimento entre os membros.
+- Guilds (Guildas): São grupos de interesse ou comunidades de prática que reúnem pessoas de diferentes Tribes e Capítulos que têm interesses ou habilidades comuns. As Guilds promovem a colaboração e o aprendizado entre os membros.
+- Tribe Leads e Squad Leads: São líderes que têm a responsabilidade de garantir que suas Tribes e Squads alcancem seus objetivos e forneçam valor aos clientes. Eles também atuam como facilitadores e apoiam o crescimento e o desenvolvimento das equipes.
+- 
+O Modelo Spotify Squads promove uma cultura de autonomia, colaboração e aprendizado contínuo. Ele permite que as equipes sejam ágeis e responsivas às mudanças, ao mesmo tempo que mantêm um foco claro nos objetivos da empresa e nas necessidades dos clientes.
+
+#### SMART
+SMART é uma sigla utilizada para definir critérios que tornam os objetivos mais claros, específicos, mensuráveis, alcançáveis, relevantes e com prazo determinado. Essa técnica é frequentemente utilizada em gerenciamento de projetos, definição de metas pessoais e profissionais, e em diversos contextos onde é necessário estabelecer metas bem definidas.
+
+Os elementos do SMART são os seguintes:
+
+- Específico (Specific): O objetivo deve ser claro e específico, definindo exatamente o que será alcançado. Quanto mais claro e detalhado for o objetivo, mais fácil será entender o que precisa ser feito.
+- Mensurável (Measurable): O objetivo deve ser quantificável e permitir a medição do progresso e do sucesso. Isso envolve o estabelecimento de indicadores e critérios que podem ser avaliados ao longo do tempo.
+- Alcançável (Attainable): O objetivo deve ser realista e alcançável, considerando os recursos disponíveis, o conhecimento e as habilidades da equipe ou pessoa envolvida.
+- Relevante (Relevant): O objetivo deve ser relevante e estar alinhado com os objetivos gerais do projeto ou da pessoa. Ele deve fazer sentido e ter um impacto significativo.
+- Tempo-bound (Time-bound): O objetivo deve ter um prazo definido para sua conclusão. Um prazo estabelecido ajuda a criar um senso de urgência e a manter o foco na realização do objetivo dentro de um período determinado.
+
+Um exemplo de objetivo SMART seria: "Aumentar as vendas da empresa em 10% nos próximos seis meses, através da implementação de uma estratégia de marketing digital focada em atrair novos clientes".
+Ao usar o SMART para definir objetivos, fica mais fácil planejar e medir o progresso, além de aumentar as chances de sucesso ao garantir que os objetivos sejam claros, realistas e orientados para resultados concretos.
+
+#### Ferramentas de projetos para usar em métodos ágeis
+**brainstroming**: é uma técnica de geração de ideias em grupo, utilizada para promover a criatividade e a solução de problemas de forma colaborativa. Nesse processo, os participantes são incentivados a expressar livremente suas ideias, sem julgamentos ou críticas, com o objetivo de gerar o maior número possível de sugestões e alternativas. O brainstorming geralmente é conduzido da seguinte forma, definição do problema, regras, geração de ideias, divergência e convergência, consolidação.
+
+É uma técnica amplamente utilizada em equipes de trabalho, sessões de inovação, resolução de problemas, desenvolvimento de projetos e tomada de decisões, ajudando a desbloquear a criatividade e a explorar novas possibilidades.
+
+**Moodboard**: 
+É uma ferramenta visual usada para representar a aparência e a sensação de um projeto ou conceito de forma rápida e eficiente. É uma coleção organizada de imagens, cores, texturas, fontes e outros elementos visuais que capturam a atmosfera, o estilo e a temática de um determinado projeto.
+O objetivo do Moodboard é fornecer uma referência visual clara e compartilhar a visão do projeto com outras pessoas envolvidas, como clientes, designers, equipes de marketing e desenvolvedores. Ele ajuda a criar uma linguagem visual comum e a estabelecer uma direção estética para o projeto, garantindo que todas as partes interessadas estejam alinhadas com o mesmo conceito. Para projetos de design gráfico, branding, websites, decoração de interiores e planejamento de eventos, o Moodboard pode incluir, paleta de cores, imagens e fotografias, tipografia, texturas e padrões, elementos gráficos, logotipos e marcas e o que mais for necessario, mas de forma que não tenha poluições visuais que atarpalhem a compreenção.
+
+Ao criar um Moodboard, é importante garantir que as imagens e elementos visuais selecionados estejam alinhados com a visão do projeto e transmitam a mensagem correta aos envolvidos. Ele serve como uma ferramenta poderosa para a comunicação visual, facilitando o processo de desenvolvimento e permitindo que todas as partes interessadas tenham uma visão clara e compartilhada do conceito a ser criado.
+
+**Mapa Mental**: 
+As características principais dos mapas mentais de Tony Buzan são:
+
+- Centralidade: O mapa mental começa com uma palavra ou imagem central que representa o tema ou conceito principal. Essa palavra ou imagem fica no centro do mapa.
+- Associatividade: Os ramos do mapa mental são conectados à ideia central através de linhas curvas, que representam as associações e conexões entre os diferentes elementos.
+- Palavras-chave: O mapa mental usa palavras-chave e frases curtas para representar as informações. Buzan acreditava que as palavras-chave eram mais eficazes para estimular a memória e a compreensão do que frases longas e textos completos.
+- Imagens e cores: Buzan enfatizou o uso de imagens e cores no mapa mental para torná-lo mais visualmente atraente e facilitar a memorização e a criatividade.
+- Hierarquia e ramificação: O mapa mental segue uma estrutura hierárquica, com ramificações que representam subtemas ou conceitos relacionados.
+
+A técnica do mapa mental de Tony Buzan se tornou amplamente popular e é amplamente utilizada em diversas áreas, como educação, negócios, planejamento, resolução de problemas, anotações, entre outros. Sua abordagem proporcionou uma maneira eficaz de organizar e explorar informações de forma criativa, tornando-se uma ferramenta valiosa para melhorar a aprendizagem e a produtividade.
+
+**Persona e Mapa de Empatia**: 
+- Persona é uma representação fictícia e detalhada de um cliente ideal ou usuário típico do produto ou serviço que está sendo desenvolvido. É uma técnica de criação de personagens que ajuda a humanizar e personificar os dados demográficos e comportamentais do público-alvo.
+- Mapa de Empatia é uma ferramenta visual que ajuda a compreender melhor as necessidades, desejos, emoções e comportamentos do público-alvo. Ele coloca o criador no lugar do cliente ou usuário, permitindo que ele entenda suas perspectivas, motivações e frustrações.
+
+**Grupos de Usuários**
+São os conjuntos específicos de pessoas ou indivíduos que compartilham interesses, necessidades ou características comuns em relação a um determinado produto, serviço ou projeto. Esses grupos desempenham um papel essencial na análise, desenvolvimento e melhoria contínua de produtos e serviços.
+
+**Jornada do Usuário**
+A jornada do usuário é uma ferramenta valiosa para compreender a perspectiva e a experiência do cliente, permitindo que as empresas identifiquem pontos de contato críticos e oportunidades de melhoria em todo o ciclo de vida do cliente. Ela é frequentemente utilizada em marketing, UX e desenvolvimento de produtos, com o objetivo de criar uma experiência mais positiva e satisfatória para o cliente. Ao mapear a jornada do usuário, as empresas podem identificar pontos de farqueza, fricção ou insatisfação ao longo do processo e, assim, implementar melhorias para aprimorar a experiência do cliente. A compreensão dessas etapas também ajuda na criação de estratégias mais eficazes de marketing, atendimento ao cliente e desenvolvimento de produtos, contribuindo para a conquista e retenção de clientes.
 
 # Sprints
 # 1. Sprint 1
 [Link para certificados e arquivos da sprint 1](https://github.com/cairodasilvapinto/bolsaCOMPASS/tree/main/SPRINT1)
 ## Git e GitHub do básico ao avançado (c/ gist e GitHub Pages)
 
-*O que é um repositorio? e para que serve?* Um repositório é um espaço onde são armazenados os arquivos e as informações relacionadas a um projeto ou sistema de controle de versão, como o Git. Ele contém todo o histórico de alterações (commits), bem como as diferentes versões dos arquivos que compõem o projeto. São essenciais para facilitar a colaboração em equipe e manter o controle de versões de um projeto. Eles são fundamentais para o desenvolvimento de software colaborativo, pois permitem que várias pessoas trabalhem no mesmo projeto sem interferir no trabalho umas das outras.
+**O que é um repositorio?** e para que serve?* Um repositório é um espaço onde são armazenados os arquivos e as informações relacionadas a um projeto ou sistema de controle de versão, como o Git. Ele contém todo o histórico de alterações (commits), bem como as diferentes versões dos arquivos que compõem o projeto. São essenciais para facilitar a colaboração em equipe e manter o controle de versões de um projeto. Eles são fundamentais para o desenvolvimento de software colaborativo, pois permitem que várias pessoas trabalhem no mesmo projeto sem interferir no trabalho umas das outras.
 
-*O que é git?* É um sistema de controle de versão utilizado para o gerenciamento eficiente e seguro de projetos de desenvolvimento de software. Criado em 2005 por Linus Torvalds, o mesmo criador do kernel do Linux, e desde então se tornou um dos sistemas de controle de versão mais populares do mundo.
+**O que é git?** É um sistema de controle de versão utilizado para o gerenciamento eficiente e seguro de projetos de desenvolvimento de software. Criado em 2005 por Linus Torvalds, o mesmo criador do kernel do Linux, e desde então se tornou um dos sistemas de controle de versão mais populares do mundo.
 
-*O que é github?* O GitHub é uma plataforma de hospedagem e colaboração de código-fonte baseada em Git. Ele fornece uma plataforma na nuvem onde desenvolvedores e equipes podem armazenar, gerenciar e compartilhar seus repositórios Git, facilitando muito o tarbalho de desenvolvimento e controle de versão, testes e etc. Ele permite hospedagem de repositorios, cotrolde de acesso e de problemas(issues), pull requests, reviews de codigo, gists e muito mais.
+**O que é github?** O GitHub é uma plataforma de hospedagem e colaboração de código-fonte baseada em Git. Ele fornece uma plataforma na nuvem onde desenvolvedores e equipes podem armazenar, gerenciar e compartilhar seus repositórios Git, facilitando muito o tarbalho de desenvolvimento e controle de versão, testes e etc. Ele permite hospedagem de repositorios, cotrolde de acesso e de problemas(issues), pull requests, reviews de codigo, gists e muito mais.
 
-*O que é markdown?* Markdown é uma linguagem de marcação leve e simples, foi desenvolvida com o objetivo de ser facilmente legível e convertida para HTML sem a necessidade de ferramentas complexas ou editores especiais.
+**O que é markdown?** Markdown é uma linguagem de marcação leve e simples, foi desenvolvida com o objetivo de ser facilmente legível e convertida para HTML sem a necessidade de ferramentas complexas ou editores especiais.
 
 Alguns comandos mais usados do git:
 
@@ -127,14 +194,14 @@ Alguns comandos mais usados do git:
 `git gc`                                | Executa a coleta de lixo no repositório, compactando e otimizando o banco de dados Git para melhorar o desempenho.
 
 ## Linux para Desenvolvedores (c/ terminal, Shell, Apache e +)
-*o que é linux?*  Linux é um sistema operacional de código aberto baseado no kernel Linux, que foi criado originalmente por Linus Torvalds em 1991. O kernel Linux é o coração do sistema operacional e gerencia o acesso aos recursos de hardware, como processador, memória, dispositivos de entrada/saída e outros componentes essenciais de um computador.
+**o que é linux?**  Linux é um sistema operacional de código aberto baseado no kernel Linux, que foi criado originalmente por Linus Torvalds em 1991. O kernel Linux é o coração do sistema operacional e gerencia o acesso aos recursos de hardware, como processador, memória, dispositivos de entrada/saída e outros componentes essenciais de um computador.
 
 O que diferencia o Linux de outros sistemas operacionais é o fato de ser um software open source. Isso significa que seu código-fonte é acessível e pode ser modificado, melhorado e distribuído livremente por qualquer pessoa sob os termos da Licença Pública Geral GNU (GPL).
 
 Uma das características mais marcantes do Linux é sua diversidade de distribuições (distros). Diversos grupos e organizações criam e mantêm diferentes distribuições do Linux com configurações, pacotes e interfaces de usuário variadas. Algumas das distribuições Linux mais populares incluem Ubuntu, Fedora, Debian, CentOS, Linux Mint e muitas outras. Ele se destaca muito pela sua segurança, flexibilidade, estabilidade, sporte da comunidade e por ser open source.
 
 
-*Quais seus principais usou?* Servidores Web, computação em nuvem, Android, desemvolvimento de software, IoT, administração de redes, supercomputadores e mais.
+**Quais seus principais usou?** Servidores Web, computação em nuvem, Android, desemvolvimento de software, IoT, administração de redes, supercomputadores e mais.
 
 Alguns comandos úteis amplamente usados no terminal do Linux:
 
@@ -188,7 +255,7 @@ Alguns comandos úteis amplamente usados no terminal do Linux:
 
 # 2. Sprint 2
 [Link para certificados e arquivos da sprint 2](https://github.com/cairodasilvapinto/bolsaCOMPASS/tree/main/SPRINT2)
-## Conceitos de Data & Analytics I
+## Conceitos de Data & Analytics
 ### Big Data:
 O conceito de Big Data refere-se a grandes volumes de dados que exigem formas inovadoras de processamento e podem ser usados para resolver problemas de negócios. Segundo o Gartner, Big Data é caracterizado pelos 3 Vs: volume, velocidade e variedade.
 
