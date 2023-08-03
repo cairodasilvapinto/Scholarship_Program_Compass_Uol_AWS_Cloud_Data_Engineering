@@ -385,10 +385,10 @@ limit N
 - Muito utilizado na etapa de exploração dos dados
 - Muito utilizado em conjunto com o comando ORDER BY quando o que importa são os TOP N. Ex: "N pagamentos mais recentes", "N produtos mais caros"
 
-## Operadores
+#### Operadores
 <img src="https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/82416285-1ed1-499e-a7e1-495cb7a3c46a" alt="operadores aritméticos, de comparação e lógicos em SQL" width="450">  
 
-## Funções agregadas
+#### Funções agregadas
 São funções que pertimem calcular um conjunto de valores e retornar um unico valor.
 - Servem para executar operações aritmética nos registros de uma coluna.
 - Funções agregadas não computam células vazias (NULL) como zero.
@@ -401,7 +401,7 @@ São funções que pertimem calcular um conjunto de valores e retornar um unico 
 - MAX(): Retorna o maior valor em uma coluna.
 
 
-##Group by
+**Group by**
 - Serve para agrupar registros semelhantes de uma coluna. 
 - Normalmente utilizado em conjunto com as Funções de agregação.
 - Pode-se referenciar a coluna a ser agrupada pela sua posição ordinal.
@@ -416,7 +416,7 @@ group by 1, 2
 order by state, contagem desc
 ```
 
-##Having
+**Having**
 - Serve para filtrar linhas da seleção por uma coluna agrupada
 - Tem a mesma função do WHERE mas pode ser usado para filtrar os resultados 
 - das funções agregadas enquanto o WHERE possui essa limitação
@@ -432,5 +432,7 @@ group by state
 having count(*) > 100
 ```
 
+#### Joins							
+<img src="https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/863e1263-737a-401c-bd47-211cfe6092ee" alt="Tipos de Joins em SQL" width="700">
 
 3. [Sprint 3]
