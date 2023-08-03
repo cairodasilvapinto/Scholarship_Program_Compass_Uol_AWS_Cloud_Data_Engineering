@@ -331,9 +331,61 @@ A arquitetura Lambda proposta por Nathan Marz é um modelo teórico para a const
 
 
 ### SQL para Análise de Dados: Do Basico ao avançado
-#### comandos básicos
-´´´sql
-  select
-´´´
+#### Comandos básicos
+**Select**:
+```sql
+select coluna_1, coluna_2, coluna_3
+from schema_1.tabela_1
+```
+- Comando usado para selecionar colunas de tabelas
+- Quando selecionar mais de uma coluna, elas devem ser separadas por vírgula sem conter virgula antes do comando FROM
+- Pode-se utilizar o asterisco (*) para selecionar todas as colunas da tabela.
+  
+**Distinct**:
+```sql
+select distinct coluna_1, coluna_2, coluna_3
+from schema_1.tabela_1
+```
+- Comando usado para remover linhas duplicadas e mostrar apenas linhas distintas
+- Muito utilizado na etapa de exploração dos dados
+- Caso mais de uma coluna seja selecionada, o comando SELECT DISTINCT irá retornar todas as combinações distintas.
+
+**Where**:
+```sql
+select coluna_1, coluna_2, coluna_3
+from schema_1.tabela_1
+where condição_x
+```
+- Comando utilizado para filtrar linhas de acordo com uma condição
+- No PostgreSQL são utilizadas aspas simples para delimitar strings
+- string = sequência de caracteres = texto
+- Pode-se combinar mais de uma condição utilizando os operadores lógicos
+- No PostgreSQL as datas são escritas no formato 'YYYY-MM-DD' ou 'YYYYMMDD'
+
+**Order by**:
+```sql
+select coluna_1, coluna_2, coluna_3
+from schema_1.tabela_1
+where condição_x=true
+order by coluna_1
+```
+- Comando utilizado para ordenar a seleção de acordo com uma regra definida
+- Por padrão o comando ordena na ordem crescente. Para mudar para a ordem decrescente usar o comando DESC
+- No caso de strings a ordenação será seguirá a ordem alfabetica
+
+**Limit**
+```sql
+select coluna_1, coluna_2, coluna_3
+from schema_1.tabela_1
+where condilção_x=true
+order by coluna_1
+limit N
+```
+- Comando utilizado para limitar o nº de linhas da consulta.
+- Muito utilizado na etapa de exploração dos dados
+- Muito utilizado em conjunto com o comando ORDER BY quando o que importa são os TOP N. Ex: "N pagamentos mais recentes", "N produtos mais caros"
+
+#### Operadores
+
 
 3. [Sprint 3]
