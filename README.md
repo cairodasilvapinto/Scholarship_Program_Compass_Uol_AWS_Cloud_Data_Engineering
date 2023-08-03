@@ -385,8 +385,52 @@ limit N
 - Muito utilizado na etapa de exploração dos dados
 - Muito utilizado em conjunto com o comando ORDER BY quando o que importa são os TOP N. Ex: "N pagamentos mais recentes", "N produtos mais caros"
 
-#### Operadores
-<img src="https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/82416285-1ed1-499e-a7e1-495cb7a3c46a" alt="operadores aritméticos, de comparação e lógicos em SQL" width="450">
+## Operadores
+<img src="https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/82416285-1ed1-499e-a7e1-495cb7a3c46a" alt="operadores aritméticos, de comparação e lógicos em SQL" width="450">  
+
+## Funções agregadas
+São funções que pertimem calcular um conjunto de valores e retornar um unico valor.
+- Servem para executar operações aritmética nos registros de uma coluna.
+- Funções agregadas não computam células vazias (NULL) como zero.
+- Na função COUNT() pode-se utilizar o asterisco (*) para contar os registros.
+- COUNT(DISTINCT ) irá contar apenas os valores exclusivos.
+- COUNT(): Retorna o número de linhas (registros) em um grupo ou conjunto de dados.
+- SUM(): Retorna a soma dos valores em uma coluna numérica.
+- AVG(): Retorna a média dos valores em uma coluna numérica.
+- MIN(): Retorna o menor valor em uma coluna.
+- MAX(): Retorna o maior valor em uma coluna.
+
+
+##Group by
+- Serve para agrupar registros semelhantes de uma coluna. 
+- Normalmente utilizado em conjunto com as Funções de agregação.
+- Pode-se referenciar a coluna a ser agrupada pela sua posição ordinal.
+- (ex: GROUP BY 1,2,3 irá agrupar pelas 3 primeiras colunas da tabela).
+- O GROUP BY sozinho funciona como um DISTINCT, eliminando linhas duplicadas.
+```sql
+-- (Exemplo) Contagem agrupada de várias colunas
+-- Calcule o nº de clientes por estado e status profissional 
+select state, professional_status, count(*) as contagem
+from sales.customers
+group by 1, 2
+order by state, contagem desc
+```
+
+##Having
+- Serve para filtrar linhas da seleção por uma coluna agrupada
+- Tem a mesma função do WHERE mas pode ser usado para filtrar os resultados 
+- das funções agregadas enquanto o WHERE possui essa limitação
+- A função HAVING também pode filtrar colunas não agregadas
+```sql
+-- (Exemplo) seleção com filtro no HAVING 
+-- Calcule o nº de clientes por estado filtrando apenas estados acima de 100 clientes
+select 
+    state, 
+    count(*)
+from sales.customers
+group by state
+having count(*) > 100
+```
 
 
 3. [Sprint 3]
