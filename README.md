@@ -386,6 +386,7 @@ limit N
 - Muito utilizado em conjunto com o comando ORDER BY quando o que importa são os TOP N. Ex: "N pagamentos mais recentes", "N produtos mais caros"
 
 #### Operadores
+<img src="https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/82416285-1ed1-499e-a7e1-495cb7a3c46a" alt="operadores aritméticos, de comparação e lógicos em SQL" width="450">
 
 
 3. [Sprint 3]
