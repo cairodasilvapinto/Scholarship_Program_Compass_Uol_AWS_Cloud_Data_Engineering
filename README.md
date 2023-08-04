@@ -271,6 +271,7 @@ O surgimento do Big Data foi impulsionado pelo aumento da geração de dados por
 A importância do Big Data não está apenas na quantidade de dados que uma empresa possui, mas sim no que ela faz com esses dados. A análise de Big Data pode ajudar as empresas a reduzir custos, economizar tempo, desenvolver novos produtos, otimizar ofertas e tomar decisões mais inteligentes.
 
 Em resumo, o Big Data é um conjunto de dados volumosos, de alta velocidade e/ou alta variedade, que requerem formas inovadoras de processamento e podem ser utilizados para obter insights e solucionar problemas de negócios
+<img src="https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/0b41cef2-dc7a-46ad-a007-8647e6f4d256" alt="definição dos 4 v's do big data de acordo com a visão da IBM">
 
 ### Ciência de Dados:
 A Ciência de Dados é uma área interdisciplinar que envolve o estudo e a análise de dados, estruturados ou não, com o objetivo de extrair conhecimento e insights para tomadas de decisão. Ela combina técnicas de análise de dados, como mineração de dados e aprendizado de máquina, com conhecimentos de estatística, matemática, ciência da computação e outras disciplinas relacionadas.
