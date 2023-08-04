@@ -437,3 +437,5 @@ having count(*) > 100
 <img src="https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/863e1263-737a-401c-bd47-211cfe6092ee" alt="Tipos de Joins em SQL" width="700">
 
 3. [Sprint 3]
+
+[Click aqui para voltar para o topo](https://github.com/cairodasilvapinto/bolsaCOMPASS/blob/main/README.md#apresenta%C3%A7%C3%A3o)
