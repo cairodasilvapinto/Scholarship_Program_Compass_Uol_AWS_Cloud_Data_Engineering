@@ -503,6 +503,7 @@ order by sto.store_name, fun.visit_page_date
 -- (3) Não é recomendado utilizar subqueries diretamente dentro do FROM pois isso 
 -- dificulta a legibilidade da query.
 ```
+<img src="https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/0f7ca065-eff2-4c0d-9da8-ff59094395c3" alt="Lista de Unidades" wifdth="700">
 
 3. [Sprint 3]
 
