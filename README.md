@@ -403,7 +403,7 @@ São funções que pertimem calcular um conjunto de valores e retornar um unico 
 - MAX(): Retorna o maior valor em uma coluna.
 
 
-**Group by**
+**Group by**:
 - Serve para agrupar registros semelhantes de uma coluna. 
 - Normalmente utilizado em conjunto com as Funções de agregação.
 - Pode-se referenciar a coluna a ser agrupada pela sua posição ordinal.
@@ -418,7 +418,7 @@ group by 1, 2
 order by state, contagem desc
 ```
 
-**Having**
+**Having**:
 - Serve para filtrar linhas da seleção por uma coluna agrupada
 - Tem a mesma função do WHERE mas pode ser usado para filtrar os resultados 
 - das funções agregadas enquanto o WHERE possui essa limitação
@@ -435,6 +435,7 @@ having count(*) > 100
 ```
 							
 <img src="https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/863e1263-737a-401c-bd47-211cfe6092ee" alt="Tipos de Joins em SQL" width="700">
+
 <img src="https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/51c8b966-7885-45d6-b45a-9b8d271348f2" alt="Tipos de Unions" wifdth="700">
 
 ```sql									
@@ -503,7 +504,79 @@ order by sto.store_name, fun.visit_page_date
 -- (3) Não é recomendado utilizar subqueries diretamente dentro do FROM pois isso 
 -- dificulta a legibilidade da query.
 ```
+#### Tratamento de Dados
 <img src="https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/0f7ca065-eff2-4c0d-9da8-ff59094395c3" alt="Lista de Unidades" wifdth="700">
+
+**Tratamento de Dados Geral**:
+- CASE WHEN é o comando utilizado para criar respostas específicas para diferentes condições e é muito utilizado para fazer agrupamento de dados.
+- COALESCE é o comando utilizado para preencher campos nulos com o primeiro valor não nulo de uma sequência de valores.
+
+**Tratamento de Texto**:
+- LOWER() é utilizado para transformar todo texto em letras minúsculas.
+- UPPER() é utilizado para transformar todo texto em letras maiúsculas.
+- TRIM() é utilizado para remover os espaços das extremidades de um texto.
+- REPLACE() é utilizado para substituir uma string por outra string.
+
+**Tratamento de Datas**:
+- O comando INTERVAL é utilizado para somar datas na unidade desejada. Caso a unidade não seja informada, o SQL irá entender que a soma foi feita em dias.
+- O comando DATE_TRUNC é utilizado para truncar uma data no início do período.
+- O comando EXTRACT é utilizado para extrair unidades de uma data/timestamp.
+- O cálculo da diferença entre datas com o operador de subtração (-) retorna valores em dias. Para calcular a diferença entre datas em outra unidade é necessário fazer uma transformação de unidades (ou criar uma função para isso).
+- Utilize o Guia de comandos para consultar as unidades de data e hora utilizadas no SQL.
+  
+**Funções**:
+- Servem para criar comandos personalizados de scripts usados recorrentemente.
+- Para criar funções, utiliza-se o comando CREATE FUNCTION.
+- Para que o comando funcione é obrigatório informar (a) quais as unidades dos INPUTS (b) quais as unidades dos OUTPUTS e (c) em qual linguagem a função será escrita.
+- O script da função deve estar delimitado por $$.
+- Para deletar uma função utiliza-se o comando DROP FUNCTION.
+
+#### Manipulação de Tabelas
+**Criação e Deleção de Tabelas**:
+- Para criar tabelas a partir de uma query basta escrever a query normalmente e colocar o comando INTO antes do FROM informando o schema e o nome da tabela  a ser criada.
+- Para criar tabelas a partir do zero é necessário (a) criar uma tabela vazia  com o comando CREATE TABLE (b) Informar que valores serão inseridos com o comando INSERT INTO seguido do nome das colunas (c) Inserir os valores manualmente em forma de lista após o comando VALUES.
+- Para deletar uma tabela utiliza-se o comando DROP TABLE.
+  
+**Inserção e Atualização de Linhas**:
+- Para inserir linhas em uma tabela é necessário (a) Informar que valores serão inseridos com o comando INSERT INTO seguido do nome da tabela e nome das colunas (b) Inserir os valores manualmente em forma de lista após o comando VALUES
+- Para atualizar as linhas de uma tabela é necessário (a) Informar qual tabela será atualizada com o comando UPDATE (b) Informar qual o novo valor com o comando SET (c) Delimitar qual linha será modificada utilizando o filtro WHERE
+- Para deletar linhas de uma tabela é necessário (a) Informar de qual tabela as linhas serão deletadas com o comando DELETE FROM (b) Delimitar qual linha será deletada utilizando o filtro WHERE.
+
+**Inserção e Atualização de Colunas**:
+
+- Para fazer qualquer modificação nas colunas de uma tabela utiliza-se o comando ALTER TABLE seguido do nome da tabela.
+- Para adicionar colunas utiliza-se o comando ADD seguido do nome da coluna e da unidade da nova coluna.
+- Para mudar o tipo de unidade de uma coluna utiliza-se o comando ALTER COLUMN.
+- Para renomear uma coluna utiliza-se o comando RENAME COLUMN.
+- Para deletar uma coluna utiliza-se o comando DROP COLUMN.
+  
+  [link para os projetos de SQL para Análise de Dados: Do básico ao avançado]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 3. [Sprint 3]
 
