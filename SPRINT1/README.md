@@ -6,4 +6,4 @@
 ![Linux para Desenvolvedores (c/ terminal, Shell, Apache e +)](<CERTIFICADOS/Linux para Desenvolvedores (c terminal, Shell, Apache e +).jpg>)
 
 - Certificado de conclução da sprint 1
-![Certificado de cunclusão da sprint 1](<CERTIFICADOS/Data & Analytics - PB - AWS sprint1.jpg>)
+![Certificado de conclusão da sprint 1](<CERTIFICADOS/Data & Analytics - PB - AWS sprint1.jpg>)

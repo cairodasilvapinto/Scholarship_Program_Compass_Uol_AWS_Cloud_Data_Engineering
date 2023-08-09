@@ -2,8 +2,8 @@
 -  SQL para Análise de Dados: Do básico ao avançado
 ![SQL para Análise de Dados: Do básico ao avançado](<CERTIFICADOS/SQL para Análise de Dados Do básico ao avançado.png>)
 
-
-
+- Certificado de conclução da sprint 2
+![Certificado de conclução da sprint 2](<CERTIFICADOS/Data & Analytics - PB - AWS sprint2.jpg>)
 # querys dos projetos de SQL
 ## Projeto 1
 
