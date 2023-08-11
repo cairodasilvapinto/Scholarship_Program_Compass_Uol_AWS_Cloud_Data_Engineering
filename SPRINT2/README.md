@@ -2,6 +2,9 @@
 -  SQL para Análise de Dados: Do básico ao avançado
 ![SQL para Análise de Dados: Do básico ao avançado](<CERTIFICADOS/SQL para Análise de Dados Do básico ao avançado.png>)
 
+- Big Data Fundamentos 3.0
+![Big Data Fundamentos 3.0](CERTIFICADOS/BigDataFundamentos3.0.png)
+
 - Certificado de conclução da sprint 2
 ![Certificado de conclução da sprint 2](<CERTIFICADOS/Data & Analytics - PB - AWS sprint2.jpg>)
 # querys dos projetos de SQL
