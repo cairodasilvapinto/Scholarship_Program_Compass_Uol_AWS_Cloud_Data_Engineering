@@ -93,6 +93,7 @@ A OWASP fornece um guia abrangente para a análise de vulnerabilidade chamado "O
 
 O método OWASP enfatiza a abordagem em camadas para avaliação de segurança, cobrindo vários aspectos da aplicação e do ambiente em que ela opera. Isso ajuda a identificar uma variedade de vulnerabilidades, desde erros de configuração até falhas de codificação, contribuindo para a criação de sistemas mais seguros.
 
+![image](https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/b5c9641b-c0c5-4b3d-8977-082ee926a9dd)
 
 ## Métodos ágeis de A a Z: o curso completo
 ### Gestão de projeto: do método tradicional ao ágil
