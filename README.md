@@ -7,6 +7,94 @@ Olá sou Cairo da Silva Pinto tenho 19 anos e moro em Ilha Solteira-SP, estou cu
 # Cultura Ágil e Segurança
 [Certificados de Cultura Ágil e Segurança](https://github.com/cairodasilvapinto/bolsaCOMPASS/tree/main/Cultura%20%C3%81gil%20e%20Seguran%C3%A7a)
 ## Segurança em Aplicações WEB
+### Principios da segurança da informação
+Os princípios da segurança da informação são um conjunto de diretrizes e direcionamentos que ajudam a orientar a forma como as organizações e os indivíduos devem abordar a proteção da informação e dos sistemas. Esses princípios fornecem um conjunto de valores fundamentais para garantir a confidencialidade, integridade e disponibilidade das informações. Os principais princípios da segurança da informação são:
+
+- Confidencialidade: Garantir que as informações só sejam acessíveis por pessoas autorizadas e que não sejam reveladas a indivíduos não autorizados. Isso envolve criptografia, autenticação e controle de acesso.
+
+- Integridade: Assegurar que as informações sejam precisas, completas e não tenham sido alteradas de forma não autorizada. Isso pode ser alcançado por meio de controle de alterações, assinaturas digitais e hashes.
+
+- Disponibilidade: Garantir que as informações e os sistemas estejam disponíveis e acessíveis quando necessário. Isso envolve proteção contra interrupções, falhas e ataques que possam afetar a disponibilidade.
+
+- Autenticidade: Verificar a identidade dos usuários e a autenticidade das informações. Isso é crucial para prevenir acesso não autorizado e manipulação de dados.
+
+- Não Repúdio: Evitar que uma pessoa negue sua autoria ou participação em uma transação. Isso é frequentemente alcançado por meio de assinaturas digitais e registros de auditoria.
+
+- Princípio do Menor Privilégio: Conceder apenas os privilégios mínimos necessários a um usuário para realizar suas tarefas. Isso limita o impacto potencial de um comprometimento.
+
+- Separação de Funções: Dividir as responsabilidades entre diferentes usuários para evitar conflitos de interesse e reduzir a possibilidade de fraude interna.
+
+- Defesa em Profundidade: Utilizar várias camadas de segurança para proteger sistemas e informações, garantindo que uma única medida de segurança não seja suficiente para evitar um ataque.
+
+- Avaliação e Gerenciamento de Riscos: Identificar, avaliar e gerenciar os riscos de segurança da informação, priorizando ações de acordo com a gravidade das ameaças e vulnerabilidades.
+
+- Conformidade: Cumprir com as regulamentações, leis e padrões relevantes em relação à segurança da informação, garantindo que as práticas de segurança estejam em conformidade com os requisitos legais e do setor.
+
+- Treinamento e Conscientização: Educar os usuários sobre as práticas de segurança, ameaças cibernéticas e suas responsabilidades na proteção das informações.
+
+- Resposta a Incidentes: Ter planos e processos em vigor para lidar com incidentes de segurança, minimizando os danos e restaurando a operação normal o mais rápido possível.
+
+Esses princípios formam a base para a construção de uma estratégia de segurança eficaz, ajudando a proteger os ativos de informação e a minimizar os riscos associados às ameaças de segurança.
+
+### Tipos de vulnerabilidades citados pela OWASP
+
+A OWASP (Open Web Application Security Project) é uma organização que se dedica a melhorar a segurança de software, especialmente em aplicações web. O projeto OWASP Top Ten lista os dez principais riscos de segurança em aplicações web. As vulnerabilidades mencionadas no OWASP Top Ten podem variar ao longo das diferentes versões, mas vou fornecer uma visão geral das vulnerabilidades frequentemente citadas:
+
+- Injection (Injeção): Isso ocorre quando dados não confiáveis são incorporados em comandos ou consultas de forma inadequada, permitindo que um invasor execute comandos não autorizados.
+
+- Broken Authentication (Autenticação Quebrada): Refere-se a falhas na implementação de recursos de autenticação e sessões, permitindo que invasores assumam contas de usuários.
+
+- Sensitive Data Exposure (Exposição de Dados Sensíveis): Ocorre quando dados confidenciais, como senhas, são armazenados ou transmitidos de forma inadequada, tornando-os suscetíveis a acesso não autorizado.
+
+- XML External Entities (XXE): É uma vulnerabilidade que ocorre quando uma aplicação processa entradas XML maliciosas, permitindo que um invasor acesse recursos do sistema ou execute ataques de negação de serviço.
+
+- Broken Access Control (Controle de Acesso Quebrado): Isso acontece quando um sistema não impõe restrições adequadas sobre quais usuários têm acesso a quais recursos, permitindo que invasores acessem funcionalidades não autorizadas.
+
+- Security Misconfiguration (Configuração de Segurança Incorreta): Refere-se a falhas na configuração de segurança, como padrões de senha fracos, acesso não autorizado a diretórios ou configurações inadequadas do servidor.
+
+- Cross-Site Scripting (XSS): É uma vulnerabilidade que permite que invasores injetem código malicioso em páginas da web visualizadas por outros usuários, levando a ataques de roubo de informações ou sessões.
+
+- Insecure Deserialization (Desserialização Insegura): Ocorre quando dados serializados (por exemplo, em JSON ou XML) são manipulados de forma inadequada, permitindo que um invasor execute código malicioso.
+
+- Using Components with Known Vulnerabilities (Uso de Componentes com Vulnerabilidades Conhecidas): Isso acontece quando uma aplicação usa bibliotecas, frameworks ou componentes com falhas de segurança conhecidas.
+
+- Insufficient Logging & Monitoring (Log e Monitoramento Insuficientes): Refere-se à falta de registro adequado de eventos de segurança e à falta de monitoramento, dificultando a detecção e resposta a incidentes.
+
+Quanto às vulnerabilidades mais graves do OWASP Top Ten, essa avaliação pode variar dependendo do contexto, do tipo de aplicação e das medidas de segurança adotadas. No entanto, vulnerabilidades como Injeção, Autenticação Quebrada, Exposição de Dados Sensíveis e Cross-Site Scripting tendem a ser amplamente consideradas como riscos críticos, pois podem levar a comprometimento significativo dos dados e da funcionalidade da aplicação. É importante lembrar que a gravidade das vulnerabilidades também depende da forma como elas são exploradas e das medidas de mitigação implementadas.
+
+### Planejamento da Análise de Vulnerabilidades
+O planejamento da análise de vulnerabilidade é uma etapa crucial na garantia da segurança de sistemas e redes. Envolve a identificação de vulnerabilidades potenciais para que possam ser mitigadas antes que sejam exploradas por invasores. Existem várias etapas na análise de vulnerabilidade, incluindo a coleta de informações, varreduras, obtenção e manutenção de acesso não autorizado. O projeto OWASP também oferece um método abrangente para realizar análises de vulnerabilidade eficazes.
+
+#### Tipos de Análise de Vulnerabilidade:
+
+1. Footprinting (Levantamento de Informações): Envolve a coleta de informações sobre o alvo, como detalhes da rede, domínios, subdomínios, endereços IP, registros WHOIS etc. Isso ajuda a entender a superfície de ataque e os pontos fracos potenciais.
+
+2. Scanning (Varredura): Nesta fase, ferramentas automatizadas são usadas para identificar ativamente vulnerabilidades conhecidas. Isso pode incluir varreduras de portas, varreduras de serviços e análise de configurações de segurança inadequadas.
+
+3. Gaining Access (Obtenção de Acesso): Se as vulnerabilidades são encontradas, a próxima etapa é explorá-las para ganhar acesso não autorizado. Isso pode envolver a exploração de falhas de segurança ou o uso de técnicas como injeções, cross-site scripting, entre outras.
+
+4. Maintaining Access (Manutenção de Acesso): Uma vez obtido o acesso, os invasores podem tentar manter sua presença oculta, por meio de backdoors ou outros métodos, para poderem acessar o sistema novamente no futuro.
+
+#### Método de Análise de Vulnerabilidade OWASP:
+
+A OWASP fornece um guia abrangente para a análise de vulnerabilidade chamado "OWASP Application Security Verification Standard Project". Este método incorpora as melhores práticas da indústria para conduzir avaliações de segurança em aplicações web e fornece uma estrutura detalhada para a análise de vulnerabilidades.
+
+##### **Ele inclui várias atividades, como:**
+
+- Modelagem de Ameaças: Identificar ameaças potenciais que podem afetar o sistema ou aplicativo, avaliando o risco associado a cada ameaça.
+
+- Verificação de Segurança da Aplicação: Realizar testes de segurança que abrangem uma variedade de categorias, como autenticação, autorização, manipulação de entrada, entre outras.
+
+- Verificação de Infraestrutura e Configuração: Avaliar a configuração do ambiente em que o aplicativo é executado, incluindo servidores, bancos de dados e serviços.
+
+- Verificação de Implementação Segura: Avaliar o código-fonte do aplicativo em busca de vulnerabilidades específicas de programação, como injeções de SQL ou cross-site scripting.
+
+- Avaliação de Risco: Avaliar a gravidade das vulnerabilidades encontradas e determinar as ações corretivas necessárias.
+
+O método OWASP enfatiza a abordagem em camadas para avaliação de segurança, cobrindo vários aspectos da aplicação e do ambiente em que ela opera. Isso ajuda a identificar uma variedade de vulnerabilidades, desde erros de configuração até falhas de codificação, contribuindo para a criação de sistemas mais seguros.
+
+![image](https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/b5c9641b-c0c5-4b3d-8977-082ee926a9dd)
+
 ## Métodos ágeis de A a Z: o curso completo
 ### Gestão de projeto: do método tradicional ao ágil
 
