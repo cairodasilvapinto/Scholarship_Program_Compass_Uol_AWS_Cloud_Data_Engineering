@@ -1,13 +1,16 @@
 # E1
+
+
 import datetime
 
 nome = input("Digite seu nome: ")
 idade = int(input("Digite sua idade: "))
 ano = datetime.datetime.now().year
-print(nome, ano + (100 - idade))
-
+print(ano + (100 - idade))
 
 # E2
+
+
 def verifica_par(n):
     if n % 2 == 0:
         return "Par:"
@@ -38,7 +41,9 @@ for i in range(1, 101):
     if verifica_primo(i):
         print(i)
 
+
 # E5
+
 dia = 22
 mes = 10
 ano = 2022
