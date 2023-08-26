@@ -1,0 +1,28 @@
+1 - O filme The Avengers aparece 6 vez(es) no dataset.
+2 - O filme Harry Potter / Deathly Hallows (P2) aparece 4 vez(es) no dataset.
+3 - O filme Catching Fire aparece 4 vez(es) no dataset.
+4 - O filme The Dark Knight aparece 3 vez(es) no dataset.
+5 - O filme Star Wars: The Force Awakens aparece 3 vez(es) no dataset.
+6 - O filme Meet the Fockers aparece 3 vez(es) no dataset.
+7 - O filme Shrek 2 aparece 2 vez(es) no dataset.
+8 - O filme Return of the King aparece 2 vez(es) no dataset.
+9 - O filme Night at the Museum aparece 2 vez(es) no dataset.
+10 - O filme Dead Man's Chest aparece 2 vez(es) no dataset.
+11 - O filme Avengers: Age of Ultron aparece 2 vez(es) no dataset.
+12 - O filme World War Z aparece 1 vez(es) no dataset.
+13 - O filme War of the Worlds aparece 1 vez(es) no dataset.
+14 - O filme Transformers 4 aparece 1 vez(es) no dataset.
+15 - O filme Toy Story 3 aparece 1 vez(es) no dataset.
+16 - O filme Titanic aparece 1 vez(es) no dataset.
+17 - O filme The Phantom Menace aparece 1 vez(es) no dataset.
+18 - O filme The Martian aparece 1 vez(es) no dataset.
+19 - O filme The LEGO Movie aparece 1 vez(es) no dataset.
+20 - O filme The Grinch aparece 1 vez(es) no dataset.
+21 - O filme The Dark Knight Rises aparece 1 vez(es) no dataset.
+22 - O filme Sixth Sense aparece 1 vez(es) no dataset.
+23 - O filme Ocean's Eleven aparece 1 vez(es) no dataset.
+24 - O filme Minions aparece 1 vez(es) no dataset.
+25 - O filme Men in Black aparece 1 vez(es) no dataset.
+26 - O filme Independence Day aparece 1 vez(es) no dataset.
+27 - O filme Hotel Transylvania 2 aparece 1 vez(es) no dataset.
+28 - O filme American Sniper aparece 1 vez(es) no dataset.
