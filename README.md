@@ -673,32 +673,6 @@ order by sto.store_name, fun.visit_page_date
   
   [link para os projetos de SQL para Análise de Dados: Do básico ao avançado]()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3. [Sprint 3]
+# 3. [Sprint 3]
 
 [Click aqui para voltar para o topo](https://github.com/cairodasilvapinto/bolsaCOMPASS/blob/main/README.md#apresenta%C3%A7%C3%A3o)
