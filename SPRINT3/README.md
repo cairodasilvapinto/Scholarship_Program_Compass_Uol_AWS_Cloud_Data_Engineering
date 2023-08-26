@@ -1,3 +1,8 @@
+# Certificados
+- Certificado de conclução da sprint 3
+![Data & Analytics - PB - AWS sprint3](<CERTIFICADOS/Data & Analytics - PB - AWS sprint3.jpg>)
+
+
 A partir da versão 3.10 do Python foi introduzida na linguagem uma nova estrutura de controle que tem o comportamento da estrutura switch: a estrutura match case
 
 A sintaxe básica dessa estrutura é a seguinte:
