@@ -675,4 +675,6 @@ order by sto.store_name, fun.visit_page_date
 
 # 3. [Sprint 3]
 [Documentação do python](https://docs.python.org/3/)
+
+
 [Click aqui para voltar para o topo](https://github.com/cairodasilvapinto/bolsaCOMPASS/blob/main/README.md#apresenta%C3%A7%C3%A3o)
