@@ -3,7 +3,7 @@
 
 Olá sou Cairo da Silva Pinto tenho 19 anos e moro em Ilha Solteira-SP, estou cursando Sistemas de Informação na UFMS de Três Lagoas, atualmente no quarto semestre. Tenho cinco meses de experiência com desenvolvimento web full stack. Como hobbies, tenho a musculação, que é uma paixão minha. Além disso, sou fascinado por tecnologia. Meus objetivos na trajetória da bolsa são aprender ao máximo e aprimorar minhas habilidades.
 
-[Click para Sprint 1](https://github.com/cairodasilvapinto/bolsaCOMPASS#1-sprint-1) [Click para Sprint 2](https://github.com/cairodasilvapinto/bolsaCOMPASS#2-sprint-2) 
+[Click para Sprint 1](https://github.com/cairodasilvapinto/bolsaCOMPASS#1-sprint-1) [Click para Sprint 2](https://github.com/cairodasilvapinto/bolsaCOMPASS#2-sprint-2) [Click para Sprint 3](https://github.com/cairodasilvapinto/bolsaCOMPASS/blob/main/README.md#3-sprint-3)
 # Cultura Ágil e Segurança
 [Certificados de Cultura Ágil e Segurança](https://github.com/cairodasilvapinto/bolsaCOMPASS/tree/main/Cultura%20%C3%81gil%20e%20Seguran%C3%A7a)
 ## Segurança em Aplicações WEB
@@ -673,32 +673,8 @@ order by sto.store_name, fun.visit_page_date
   
   [link para os projetos de SQL para Análise de Dados: Do básico ao avançado]()
 
+# 3. [Sprint 3]
+[Documentação do python](https://docs.python.org/3/)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3. [Sprint 3]
 
 [Click aqui para voltar para o topo](https://github.com/cairodasilvapinto/bolsaCOMPASS/blob/main/README.md#apresenta%C3%A7%C3%A3o)
