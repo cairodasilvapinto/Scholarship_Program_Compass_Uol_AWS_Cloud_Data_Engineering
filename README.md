@@ -673,10 +673,10 @@ order by sto.store_name, fun.visit_page_date
   
   [link para os projetos de SQL para Análise de Dados: Do básico ao avançado]()
 
-# 3. [Sprint 3]
+# 3. Sprint 3
 [Documentação do python](https://docs.python.org/3/)
 
-# 4. [Sprint 4]
+# 4. Sprint 4
 ## Programação Fundamental
 A programação funcional é um paradigma de programação que se concentra na construção de software por meio da composição de funções puras, evitando o compartilhamento de estados mutáveis e efeitos colaterais. Em vez de dar instruções passo a passo sobre como realizar uma tarefa, a programação funcional se baseia na declaração de lógica e comportamento, permitindo que o sistema determine como realizar as operações.
 
