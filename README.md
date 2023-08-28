@@ -676,5 +676,29 @@ order by sto.store_name, fun.visit_page_date
 # 3. [Sprint 3]
 [Documentação do python](https://docs.python.org/3/)
 
+# 4. [Sprint 4]
+## Programação Fundamental
+A programação funcional é um paradigma de programação que se concentra na construção de software por meio da composição de funções puras, evitando o compartilhamento de estados mutáveis e efeitos colaterais. Em vez de dar instruções passo a passo sobre como realizar uma tarefa, a programação funcional se baseia na declaração de lógica e comportamento, permitindo que o sistema determine como realizar as operações.
+
+Esse paradigma tem suas raízes na matemática e na teoria dos números, onde os matemáticos lidam com abstrações complexas por meio de funções. A programação funcional adota essa abordagem, onde as funções desempenham um papel central na representação de abstrações e comportamentos.
+
+Alguns conceitos fundamentais da programação funcional incluem:
+
+- Composição de Funções: A programação funcional incentiva a criação de novas funções combinando funções existentes. Isso é feito por meio da aplicação sequencial de funções para transformar dados. Por exemplo, filtrar um array de números pares e, em seguida, multiplicar cada número por dois.
+
+- Funções Puras: Uma função é considerada pura quando, ao ser invocada várias vezes com os mesmos argumentos, produz o mesmo resultado sem causar efeitos colaterais. Isso significa que a função não depende de dados mutáveis externos e não altera nenhum estado global.
+
+- Imutabilidade: A imutabilidade refere-se à característica de que, uma vez que um valor é atribuído a uma variável, ele não pode ser alterado. Isso promove a consistência e evita efeitos colaterais indesejados.
+
+- Efeitos Colaterais: Efeitos colaterais ocorrem quando uma função modifica o estado de algo fora de seu escopo ou realiza ações imprevisíveis, como acessar bancos de dados ou alterar variáveis globais. A programação funcional busca minimizar os efeitos colaterais.
+
+- Programação Declarativa: Ao contrário da abordagem imperativa, que descreve explicitamente os passos para alcançar um resultado, a programação declarativa foca em descrever o que deve ser feito, permitindo que o sistema decida como fazer isso.
+
+Estado Compartilhado: O estado compartilhado ocorre quando um valor é acessível por várias partes do programa. A programação funcional busca limitar o uso de estados compartilhados, favorecendo a imutabilidade e a passagem de dados como argumentos para funções.
+
+- A abordagem funcional pode levar a um código mais conciso, modular, testável e compreensível. Ela é amplamente utilizada em linguagens de programação como Haskell, Scala, Clojure e também é aplicada em outras linguagens como JavaScript, por meio de suas características funcionais.
+
+No geral, a programação funcional busca criar software robusto e confiável ao reduzir a complexidade por meio da composição de funções puras e ao minimizar os efeitos colaterais e o compartilhamento de estados mutáveis.
+
 
 [Click aqui para voltar para o topo](https://github.com/cairodasilvapinto/bolsaCOMPASS/blob/main/README.md#apresenta%C3%A7%C3%A3o)
