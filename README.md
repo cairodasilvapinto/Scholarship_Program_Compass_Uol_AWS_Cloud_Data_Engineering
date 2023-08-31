@@ -701,4 +701,16 @@ Estado Compartilhado: O estado compartilhado ocorre quando um valor é acessíve
 No geral, a programação funcional busca criar software robusto e confiável ao reduzir a complexidade por meio da composição de funções puras e ao minimizar os efeitos colaterais e o compartilhamento de estados mutáveis.
 
 
+
+## **Docker** O que é uma imagem e um conteiner?
+
+Uma imagem no Docker é uma espécie de modelo ou pacote que contém um sistema de arquivos completo, incluindo código-fonte, bibliotecas, dependências, configurações e tudo o que é necessário para executar um software. Ela é uma representação estática e imutável de um ambiente de execução.
+
+As imagens Docker são construídas a partir de um arquivo chamado Dockerfile, que contém as instruções para montar o ambiente desejado. Isso inclui a base da imagem (geralmente uma distribuição Linux), as dependências do aplicativo e as configurações necessárias. Quando o Dockerfile é processado, ele gera uma imagem que pode ser usada para criar contêineres.
+
+Um contêiner Docker é uma instância em execução de uma imagem. Os contêineres são isolados uns dos outros e do sistema host, permitindo que você execute aplicativos em um ambiente consistente e confinado. Cada contêiner compartilha o mesmo sistema operacional do host, mas possui seu próprio sistema de arquivos e recursos isolados.
+
+As imagens Docker são essenciais para a abordagem de virtualização baseada em contêineres do Docker, pois fornecem portabilidade, escalabilidade e consistência para aplicativos em diferentes ambientes. Eles facilitam a distribuição de aplicativos, pois os desenvolvedores podem criar uma imagem, compartilhá-la por meio de um registro de contêineres (como o Docker Hub) e, em seguida, outros podem usar essa imagem para executar o aplicativo em seus próprios ambientes de maneira confiável e replicável.
+
+
 [Click aqui para voltar para o topo](https://github.com/cairodasilvapinto/bolsaCOMPASS/blob/main/README.md#apresenta%C3%A7%C3%A3o)
