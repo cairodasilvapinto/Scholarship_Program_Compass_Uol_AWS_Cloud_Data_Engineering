@@ -712,5 +712,24 @@ Um contêiner Docker é uma instância em execução de uma imagem. Os contêine
 
 As imagens Docker são essenciais para a abordagem de virtualização baseada em contêineres do Docker, pois fornecem portabilidade, escalabilidade e consistência para aplicativos em diferentes ambientes. Eles facilitam a distribuição de aplicativos, pois os desenvolvedores podem criar uma imagem, compartilhá-la por meio de um registro de contêineres (como o Docker Hub) e, em seguida, outros podem usar essa imagem para executar o aplicativo em seus próprios ambientes de maneira confiável e replicável.
 
+## o que é Volumes?
+
+No Docker, um volume é um recurso que permite persistir e compartilhar dados entre contêineres e o sistema operacional host. Ele fornece um método flexível e eficaz para gerenciar dados que precisam ser mantidos mesmo quando os contêineres são interrompidos ou removidos.
+
+Os volumes no Docker são usados para:
+
+Persistência de Dados: Quando um contêiner é encerrado, os dados armazenados nele normalmente seriam perdidos. No entanto, ao usar volumes, você pode garantir que os dados sejam mantidos mesmo depois que o contêiner seja desligado, permitindo a persistência de bancos de dados, arquivos de configuração e outros dados importantes.
+
+Compartilhamento de Dados: Volumes podem ser compartilhados entre múltiplos contêineres, permitindo que eles acessem os mesmos dados. Isso é útil para cenários em que você precisa compartilhar informações entre contêineres, como quando um contêiner gera arquivos e outro contêiner precisa processá-los.
+
+Backup e Restauração: Volumes facilitam a realização de backups dos dados de um contêiner, tornando mais simples a tarefa de migrar ou restaurar dados em diferentes ambientes.
+
+Isolamento dos Dados: Volumes permitem manter os dados isolados do sistema operacional host, contribuindo para uma separação limpa entre os componentes.
+
+Integração com o Sistema Host: Volumes podem ser montados em caminhos específicos do sistema host, o que é útil para casos em que você deseja interagir diretamente com os dados do contêiner a partir do host.
+
+Os volumes podem ser criados durante a criação do contêiner ou depois, sendo associados a ele. Eles podem ser usados para armazenar diretórios inteiros ou arquivos específicos. Além disso, existem diferentes tipos de volumes, como volumes de host, volumes nomeados e volumes de plug-in, que oferecem diferentes níveis de flexibilidade e gerenciamento.
+
+Em resumo, os volumes no Docker são mecanismos essenciais para gerenciar dados de forma persistente e compartilhada entre contêineres e o sistema operacional host, tornando a arquitetura de aplicativos baseados em contêineres mais versátil e eficiente.
 
 [Click aqui para voltar para o topo](https://github.com/cairodasilvapinto/bolsaCOMPASS/blob/main/README.md#apresenta%C3%A7%C3%A3o)
