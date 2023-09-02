@@ -1,0 +1,1 @@
+Sim, é possivel basta usar o comando docker start seguido do nome ou do id do container, exemplo docker start meu-carguru ou docker start 57383c2138250e1c8c997f0c7ee808ac7c7e02d1e88e91100b1db9f5d8b6c174
