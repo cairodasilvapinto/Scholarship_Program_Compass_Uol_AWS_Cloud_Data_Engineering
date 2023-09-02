@@ -732,4 +732,20 @@ Os volumes podem ser criados durante a criação do contêiner ou depois, sendo 
 
 Em resumo, os volumes no Docker são mecanismos essenciais para gerenciar dados de forma persistente e compartilhada entre contêineres e o sistema operacional host, tornando a arquitetura de aplicativos baseados em contêineres mais versátil e eficiente.
 
+## Tipos de vomules?
+
+No Docker, existem vários tipos de volumes que você pode usar para gerenciar dados persistentes e compartilhados entre contêineres e o sistema operacional host. Alguns dos principais tipos de volumes incluem:
+
+Volumes de Host: Esses volumes são diretórios do sistema host que são montados diretamente em um contêiner. Isso permite que os dados sejam compartilhados entre o host e o contêiner. No entanto, essa abordagem pode ser menos portátil, pois os caminhos do sistema host são específicos para a máquina em que os contêineres estão sendo executados.
+
+Volumes Nomeados: Os volumes nomeados são volumes independentes do sistema de arquivos do host e têm um nome associado. Isso torna mais fácil referenciá-los em múltiplos contêineres. Os volumes nomeados são criados explicitamente e persistem mesmo depois que os contêineres são removidos.
+
+Volumes de Plug-in: Alguns sistemas, como o Docker Swarm, oferecem suporte a plug-ins de volume que permitem estender a funcionalidade de gerenciamento de volumes. Isso pode ser útil em cenários específicos, como integração com sistemas de armazenamento externo.
+
+Volumes do Serviço: No contexto de orquestração de contêineres, como o Docker Swarm ou o Kubernetes, os volumes do serviço são usados para compartilhar dados entre os nós do cluster e os contêineres do serviço. Isso garante que os dados persistam e estejam acessíveis, mesmo que o serviço seja movido entre nós.
+
+Volumes Temporários: Esses volumes são criados automaticamente quando um contêiner é iniciado e são excluídos quando o contêiner é encerrado. Eles são úteis para armazenar dados temporários ou específicos de um único contêiner.
+
+Cada tipo de volume tem suas próprias vantagens e casos de uso específicos. A escolha do tipo de volume dependerá das necessidades do seu aplicativo e do ambiente em que ele será executado.
+
 [Click aqui para voltar para o topo](https://github.com/cairodasilvapinto/bolsaCOMPASS/blob/main/README.md#apresenta%C3%A7%C3%A3o)
