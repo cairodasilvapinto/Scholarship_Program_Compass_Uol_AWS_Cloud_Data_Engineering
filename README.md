@@ -712,6 +712,9 @@ Um contêiner Docker é uma instância em execução de uma imagem. Os contêine
 
 As imagens Docker são essenciais para a abordagem de virtualização baseada em contêineres do Docker, pois fornecem portabilidade, escalabilidade e consistência para aplicativos em diferentes ambientes. Eles facilitam a distribuição de aplicativos, pois os desenvolvedores podem criar uma imagem, compartilhá-la por meio de um registro de contêineres (como o Docker Hub) e, em seguida, outros podem usar essa imagem para executar o aplicativo em seus próprios ambientes de maneira confiável e replicável.
 
+![image](https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/e35f15a4-f094-4459-aa16-7f21ca10ae58)
+
+
 ## o que é Volumes?
 
 No Docker, um volume é um recurso que permite persistir e compartilhar dados entre contêineres e o sistema operacional host. Ele fornece um método flexível e eficaz para gerenciar dados que precisam ser mantidos mesmo quando os contêineres são interrompidos ou removidos.
