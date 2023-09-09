@@ -5,4 +5,7 @@
 ![certificado sprint 4](<CERTIFICADOS\Data & Analytics - PB - AWS sprint4.jpg>)
 
 - Docker para Desenvolvedores (com Docker Swarm e Kubernetes)
-![certificado docker](<.jpg>)
+![certificado docker](<CERTIFICADOS\Docker para Desenvolvedores (com Docker Swarm e Kubernetes).jpg>)
+
+- Estatistica descritiva com Python
+![certificado estatistica](<CERTIFICADOS\estatisticadescritivacompython.jpg>)
