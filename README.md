@@ -712,6 +712,9 @@ Um contêiner Docker é uma instância em execução de uma imagem. Os contêine
 
 As imagens Docker são essenciais para a abordagem de virtualização baseada em contêineres do Docker, pois fornecem portabilidade, escalabilidade e consistência para aplicativos em diferentes ambientes. Eles facilitam a distribuição de aplicativos, pois os desenvolvedores podem criar uma imagem, compartilhá-la por meio de um registro de contêineres (como o Docker Hub) e, em seguida, outros podem usar essa imagem para executar o aplicativo em seus próprios ambientes de maneira confiável e replicável.
 
+![image](https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/e35f15a4-f094-4459-aa16-7f21ca10ae58)
+
+
 ## o que é Volumes?
 
 No Docker, um volume é um recurso que permite persistir e compartilhar dados entre contêineres e o sistema operacional host. Ele fornece um método flexível e eficaz para gerenciar dados que precisam ser mantidos mesmo quando os contêineres são interrompidos ou removidos.
@@ -747,5 +750,84 @@ Volumes do Serviço: No contexto de orquestração de contêineres, como o Docke
 Volumes Temporários: Esses volumes são criados automaticamente quando um contêiner é iniciado e são excluídos quando o contêiner é encerrado. Eles são úteis para armazenar dados temporários ou específicos de um único contêiner.
 
 Cada tipo de volume tem suas próprias vantagens e casos de uso específicos. A escolha do tipo de volume dependerá das necessidades do seu aplicativo e do ambiente em que ele será executado.
+
+## Docker Swarm
+
+O Docker Swarm é um sistema de orquestração de contêineres de código aberto, desenvolvido pela Docker, Inc. Ele permite que você execute e gerencie aplicativos em um cluster de máquinas Docker.
+
+O Docker Swarm é composto por dois tipos de nós: nós gerenciadores e nós de trabalho. Os nós gerenciadores são responsáveis por gerenciar o cluster, enquanto os nós de trabalho são responsáveis por executar os contêineres.
+
+Para criar um cluster Docker Swarm, você precisará de pelo menos um nó gerenciador. Você pode adicionar mais nós de trabalho ao cluster conforme necessário.
+
+O Docker Swarm oferece uma variedade de recursos para gerenciar clusters de contêineres, incluindo:
+
+- Escalabilidade: O Docker Swarm pode ser escalado horizontalmente adicionando mais nós de trabalho ao cluster.
+- Automação: O Docker Swarm pode ser usado para automatizar tarefas comuns de gerenciamento de contêineres, como provisionamento, implantação e escala.
+- Resiliência: O Docker Swarm pode lidar com falhas de nós, redistribuindo os contêineres para nós saudáveis.
+O Docker Swarm é uma ferramenta poderosa que pode ser usada para executar e gerenciar aplicativos em um cluster de máquinas Docker. É uma boa opção para aplicativos que precisam ser escalados horizontalmente, precisam ser automatizados ou precisam ser resilientes a falhas.
+
+Aqui estão alguns exemplos de como o Docker Swarm pode ser usado:
+
+- Aplicativos web: O Docker Swarm pode ser usado para executar aplicativos web em um cluster de máquinas. Isso pode ajudar a melhorar o desempenho e a disponibilidade dos aplicativos.
+- Aplicativos de processamento de dados: O Docker Swarm pode ser usado para executar aplicativos de processamento de dados em um cluster de máquinas. Isso pode ajudar a melhorar a escalabilidade e a eficiência dos aplicativos.
+- Aplicativos de armazenamento: O Docker Swarm pode ser usado para executar aplicativos de armazenamento em um cluster de máquinas. Isso pode ajudar a melhorar o desempenho e a disponibilidade dos dados.
+O Docker Swarm é uma ferramenta relativamente nova, mas está rapidamente ganhando popularidade. É uma boa opção para desenvolvedores e administradores de sistemas que precisam gerenciar aplicativos em um cluster de máquinas Docker.
+
+Aqui estão alguns dos benefícios do uso do Docker Swarm:
+
+- Escalabilidade: O Docker Swarm pode ser escalado horizontalmente adicionando mais nós de trabalho ao cluster. Isso permite que você aumente o desempenho e a capacidade de resposta dos seus aplicativos conforme necessário.
+- Automação: O Docker Swarm pode ser usado para automatizar tarefas comuns de gerenciamento de contêineres, como provisionamento, implantação e escala. Isso pode ajudar a economizar tempo e esforço.
+- Resiliência: O Docker Swarm pode lidar com falhas de nós, redistribuindo os contêineres para nós saudáveis. Isso ajuda a garantir que seus aplicativos permaneçam disponíveis mesmo se um nó falhar.
+Se você estiver procurando por uma maneira de gerenciar aplicativos em um cluster de máquinas Docker, o Docker Swarm é uma excelente opção.
+
+## Kubernetes
+
+O Kubernetes é um sistema de orquestração de contêineres de código aberto, desenvolvido pela Cloud Native Computing Foundation (CNCF). É um sistema mais complexo do que o Docker Swarm, mas oferece uma gama mais ampla de recursos e funcionalidades.
+
+O Kubernetes é composto por um conjunto de componentes que trabalham juntos para gerenciar clusters de contêineres. Esses componentes incluem:
+
+- API: A API Kubernetes é usada para interagir com o sistema.
+- Controladores: Os controladores Kubernetes são responsáveis por gerenciar os recursos do cluster.
+- Pods: Os pods são unidades de trabalho básicas no Kubernetes. Eles são compostos por um ou mais contêineres que são executados no mesmo host.
+- Serviços: Os serviços Kubernetes fornecem uma forma de expor pods para o mundo exterior.
+- Namespaces: Os namespaces Kubernetes são usados para agrupar recursos relacionados.
+O Kubernetes oferece uma variedade de recursos para gerenciar clusters de contêineres, incluindo:
+
+- Escalabilidade: O Kubernetes pode ser escalado horizontalmente adicionando mais nós ao cluster.
+- Automação: O Kubernetes pode ser usado para automatizar tarefas comuns de gerenciamento de contêineres, como provisionamento, implantação e escala.
+- Resiliência: O Kubernetes pode lidar com falhas de nós, redistribuindo os pods para nós saudáveis.
+- Orquestração: O Kubernetes pode ser usado para coordenar a execução de contêineres em um cluster.
+- Segurança: O Kubernetes oferece recursos de segurança para proteger os contêineres.
+O Kubernetes é uma ferramenta poderosa que pode ser usada para executar e gerenciar aplicativos em um cluster de máquinas Docker. É uma boa opção para aplicativos que precisam ser escalados horizontalmente, precisam ser automatizados ou precisam ser resilientes a falhas.
+
+Aqui estão alguns exemplos de como o Kubernetes pode ser usado:
+
+- Aplicativos web: O Kubernetes pode ser usado para executar aplicativos web em um cluster de máquinas. Isso pode ajudar a melhorar o desempenho e a disponibilidade dos aplicativos.
+- Aplicativos de processamento de dados: O Kubernetes pode ser usado para executar aplicativos de processamento de dados em um cluster de máquinas. Isso pode ajudar a melhorar a escalabilidade e a eficiência dos aplicativos.
+- Aplicativos de armazenamento: O Kubernetes pode ser usado para executar aplicativos de armazenamento em um cluster de máquinas. Isso pode ajudar a melhorar o desempenho e a disponibilidade dos dados.
+O Kubernetes é uma ferramenta mais complexa do que o Docker Swarm, mas oferece uma gama mais ampla de recursos e funcionalidades. É uma boa opção para desenvolvedores e administradores de sistemas que precisam gerenciar aplicativos em um cluster de máquinas Docker em escala.
+
+Aqui estão alguns dos benefícios do uso do Kubernetes:
+
+- Escalabilidade: O Kubernetes pode ser escalado horizontalmente adicionando mais nós ao cluster. Isso permite que você aumente o desempenho e a capacidade de resposta dos seus aplicativos conforme necessário.
+- Automação: O Kubernetes pode ser usado para automatizar tarefas comuns de gerenciamento de contêineres, como provisionamento, implantação e escala. Isso pode ajudar a economizar tempo e esforço.
+- Resiliência: O Kubernetes pode lidar com falhas de nós, redistribuindo os pods para nós saudáveis. Isso ajuda a garantir que seus aplicativos permaneçam disponíveis mesmo se um nó falhar.
+- Orquestração: O Kubernetes pode ser usado para coordenar a execução de contêineres em um cluster. Isso pode ajudar a garantir que seus aplicativos sejam executados de forma eficiente e confiável.
+- Segurança: O Kubernetes oferece recursos de segurança para proteger os contêineres. Isso pode ajudar a proteger seus aplicativos contra ataques.
+Se você está procurando por uma maneira de gerenciar aplicativos em um cluster de máquinas Docker em escala, o Kubernetes é uma excelente opção.
+
+### Comparação entre Docker Swarm e Kubernetes
+
+| Característica | Docker Swarm | Kubernetes |
+|---|---|---|
+| **Complexidade** | Mais simples | Mais complexo |
+| **Recursos** | Menos recursos | Mais recursos |
+| **Funcionalidades** | Menos funcionalidades | Mais funcionalidades |
+| **Facilidade de uso** | Mais fácil de usar | Mais difícil de usar |
+| **Custo** | Gratuito | Gratuito |
+| **Popularidade** | Mais popular | Menos popular |
+| **Melhor para** | Aplicativos simples | Aplicativos complexos |
+
+Em geral, o Docker Swarm é uma boa opção para aplicativos simples que precisam ser executados em um cluster de máquinas Docker. O Kubernetes é uma boa opção para aplicativos complexos que precisam ser executados em um cluster de máquinas Docker em escala.
 
 [Click aqui para voltar para o topo](https://github.com/cairodasilvapinto/bolsaCOMPASS/blob/main/README.md#apresenta%C3%A7%C3%A3o)
