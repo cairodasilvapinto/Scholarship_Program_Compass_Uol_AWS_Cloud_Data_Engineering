@@ -39,10 +39,10 @@ spark_df = spark_df.withColumn("nome", upper(F.col("nome")))
 # Imprimir a contagem de linhas presentes no dataframe
 print("Número de linhas no dataframe: ", spark_df.count())
 
-# Imprimir a contagem de nomes, agrupando os dados do dataframe pelas colunas ano e sexo.
+# Imprimir a contagem de nomes, agrupando os dados do dataframe pelas colunas ano e sexo
 spark_df.groupBy("ano", "sexo").count().show()
 
-# Ordene os dados de modo que o ano mais recente apareça como primeiro registro do dataframe.
+# Ordene os dados de modo que o ano mais recente apareça como primeiro registro do dataframe
 spark_df = spark_df.orderBy(desc("ano"))
 
 # Apresentar qual foi o nome feminino com mais registros e em que ano ocorreu.
@@ -57,7 +57,7 @@ print(
     f"O nome feminino com mais registros foi {feminino_max['nome']} e ocorreu no ano {feminino_max['ano']}"
 )
 
-# Apresentar qual foi o nome masculino com mais registros e em que ano ocorreu.
+# Apresentar qual foi o nome masculino com mais registros e em que ano ocorreu
 masculino_max = (
     spark_df.filter(spark_df.sexo == "M")
     .groupBy("nome", "ano")
@@ -69,7 +69,7 @@ print(
     f"O nome masculino com mais registros foi {masculino_max['nome']} e ocorreu no ano {masculino_max['ano']}"
 )
 
-# Apresentar o total de registros (masculinos e femininos) para cada ano presente no dataframe.
+# Apresentar o total de registros (masculinos e femininos) para cada ano presente no dataframe
 total_registros_por_ano = spark_df.groupBy("ano").count().orderBy("ano").limit(10)
 total_registros_por_ano.show()
 
