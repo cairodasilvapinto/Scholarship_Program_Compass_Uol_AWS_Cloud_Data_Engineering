@@ -1,2 +1,0 @@
-Most frequent movies and their frequency:
-The Avengers: 6
