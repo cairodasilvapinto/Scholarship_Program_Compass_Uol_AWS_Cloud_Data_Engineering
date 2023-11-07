@@ -1,0 +1,5 @@
+- Primeira Forma Normal (1NF): As tabelas do código estão em 1NF porque possuem valores atômicos em cada coluna, o que significa que cada coluna contém apenas um valor. Por exemplo, a tabela "Cliente" possui colunas separadas para "cidadeCliente", "estadoCliente" e "paisCliente" em vez de ter uma única coluna para "enderecoCliente".
+
+- Segunda Forma Normal (2NF): As tabelas no código estão em 2NF porque possuem uma chave primária de coluna única e todos os atributos não-chave são totalmente dependentes da chave primária. Por exemplo, na tabela "Locacao", "qtdDiaria" e "vlrDiaria" dependem da chave primária "idLocacao" e não de quaisquer outros atributos não-chave.
+
+- Terceira Forma Normal (3NF): As tabelas do código estão em 3NF porque não possuem dependências transitivas. Por exemplo, na tabela "Carro", "tipoCombustivel" depende de "idcombustivel" e não de quaisquer outros atributos não-chave. A tabela "Locacao" também não possui dependências transitivas.
