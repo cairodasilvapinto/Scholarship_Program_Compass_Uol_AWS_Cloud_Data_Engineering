@@ -1,4 +1,4 @@
--- Script para criar o modelo relacional normalizado, já com os relacionamentos corretos.
+-- Script para criar o modelo relacional normalizado apartir do banco desnormalizado, já com os relacionamentos corretos.
 CREATE TABLE Cliente (
   idCliente INTEGER NOT NULL PRIMARY KEY,
   nomeCliente VARCHAR(255) NOT NULL,
