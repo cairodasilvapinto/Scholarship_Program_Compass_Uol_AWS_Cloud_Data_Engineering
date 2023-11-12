@@ -43,6 +43,8 @@ def lambda_handler(event, context):
                 "budget": data_movie["budget"],
                 "vote_average": data_movie["vote_average"],
                 "vote_count": data_movie["vote_count"],
+                "genres": data_movie["genres"],
+                "release_date": data_movie["release_date"],
                 "main_actor": next(
                     (
                         cast["name"]
