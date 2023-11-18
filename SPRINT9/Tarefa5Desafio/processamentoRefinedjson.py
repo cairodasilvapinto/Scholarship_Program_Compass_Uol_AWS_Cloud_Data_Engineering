@@ -1,3 +1,5 @@
+# Antes de executar este script, certifique-se de que o crawler já foi executado
+# e que a tabela está disponível no catálogo do Glue.
 from pyspark.context import SparkContext
 from awsglue.context import GlueContext
 from awsglue.dynamicframe import DynamicFrame
