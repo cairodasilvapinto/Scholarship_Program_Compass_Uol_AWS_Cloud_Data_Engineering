@@ -1,5 +1,5 @@
-# passando para refined apenas os dados vindos do CSV que são do genero do genero Comedy e Animation
-# apenas as linhas que não apresentão valores nulos \N
+# Passando para refined apenas os dados vindos do CSV que são do genero do genero Comedy e/ou Animation
+# e também apenas as linhas que não apresentão valores nulos \N
 from pyspark.context import SparkContext
 from awsglue.context import GlueContext
 from awsglue.dynamicframe import DynamicFrame
