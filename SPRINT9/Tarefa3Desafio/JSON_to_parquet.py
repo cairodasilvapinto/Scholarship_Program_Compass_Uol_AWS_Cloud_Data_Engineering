@@ -11,15 +11,15 @@ glueContext = GlueContext(sc)
 spark = glueContext.spark_session
 
 # Lendo o primeiro arquivo .json da Raw Zone para obter o esquema
-file_path = "desafioetl1/desafioetl1/Raw/tmdb/json/2023/11/12/1_0.json"
+file_path = "desafioetl1/desafioetl1/Raw/tmdb/json/2023/11/12/50_0.json"
 first_df = spark.read.json(f"s3://{file_path}")
 
 # DataFrame vazio para armazenar todos os dados
 all_data_df = spark.createDataFrame([], first_df.schema)
 
 # Lendo todos os arquivos .json da Raw Zone
-for i in range(1, 11):  # Loop de 1 a 10
-    file_path = f"desafioetl1/desafioetl1/Raw/tmdb/json/2023/11/12/{i}_0.json"
+for i in range(0, 2):  # Loop de 1 a 10
+    file_path = f"desafioetl1/desafioetl1/Raw/tmdb/json/2023/11/12/50_{i}.json"
     movies_json_df = spark.read.json(f"s3://{file_path}")
 
     # Extraindo a data completa do caminho do arquivo

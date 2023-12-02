@@ -30,4 +30,4 @@
     );
 ```
 
-- Essa modelagem organiza os dados de forma que seja possível analisar a receita dos filmes em relação a outros fatores, como o orçamento do filme, a nota média, o gênero, etc. Isso pode ajudar a entender quais fatores contribuem para o sucesso financeiro de um filme e pegar insights para a tomada de decisão.
+- Essa modelagem organiza os dados de forma que seja possível analisar a receita dos filmes em relação a outros fatores, como o orçamento do filme, a voto médio, etc. Isso pode ajudar a entender quais fatores contribuem para o sucesso financeiro de um filme e gerar insights para a tomada de decisão.

@@ -17,14 +17,14 @@ def lambda_handler(event, context):
         "sort_by": "vote_average.desc",
         "include_adult": "false",
         "include_video": "false",
-        "primary_release_date.gte": "2020-01-01",
+        "primary_release_date.gte": "2013-01-01",
         "primary_release_date.lte": str(date.today()),
         "vote_count.gte": "500",
         "with_genres": "16,35",  # 16 para Animação e 35 para Comédia
     }
 
     all_movies = []
-    for page in range(1, 11):
+    for page in range(1, 51):
         querystring["page"] = str(page)
         response_discover = requests.request("GET", url_discover, params=querystring)
         data_discover = response_discover.json()
@@ -43,7 +43,6 @@ def lambda_handler(event, context):
                 "budget": data_movie["budget"],
                 "vote_average": data_movie["vote_average"],
                 "vote_count": data_movie["vote_count"],
-                "genres": data_movie["genres"],
                 "release_date": data_movie["release_date"],
                 "main_actor": next(
                     (
@@ -64,15 +63,15 @@ def lambda_handler(event, context):
             }
             all_movies.append(movie_details)
 
-        # Dividindo os dados em grupos de 100 registros
-        chunks = [all_movies[i : i + 100] for i in range(0, len(all_movies), 100)]
+    # Dividindo os dados em grupos de 100 registros
+    chunks = [all_movies[i : i + 100] for i in range(0, len(all_movies), 100)]
 
-        for i, chunk in enumerate(chunks):
-            # Gravando os dados no S3
-            s3.put_object(
-                Body=json.dumps(chunk),
-                Bucket="desafioetl1",
-                Key=f"desafioetl1/Raw/tmdb/json/2023/11/12{page}_{i}.json",
-            )
+    for i, chunk in enumerate(chunks):
+        # Gravando os dados no S3
+        s3.put_object(
+            Body=json.dumps(chunk),
+            Bucket="desafioetl1",
+            Key=f"desafioetl1/Raw/tmdb/json/2023/11/12/{page}_{i}.json",
+        )
 
     return {"statusCode": 200, "body": json.dumps("Dados gravados com sucesso no S3!")}
