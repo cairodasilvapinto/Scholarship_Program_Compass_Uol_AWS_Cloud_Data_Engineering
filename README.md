@@ -1,7 +1,8 @@
 
 # Apresentação
+![image](https://github.com/cairodasilvapinto/bolsaCOMPASS/assets/131769429/797a17d4-5414-41a0-994e-6299f8f042c9)
 
-Olá sou Cairo da Silva Pinto tenho 19 anos e moro em Ilha Solteira-SP, estou cursando Sistemas de Informação na UFMS de Três Lagoas, atualmente no quarto semestre. Tenho cinco meses de experiência com desenvolvimento web full stack. Como hobbies, tenho a musculação, que é uma paixão minha. Além disso, sou fascinado por tecnologia. Meus objetivos na trajetória da bolsa são aprender ao máximo e aprimorar minhas habilidades.
+Olá :smiley:, sou Cairo da Silva Pinto tenho 19 anos e moro em Ilha Solteira-SP, estou cursando Sistemas de Informação na UFMS de Três Lagoas, atualmente no quarto semestre. Tenho cinco meses de experiência com desenvolvimento web full stack. Como hobbies, tenho a musculação, que é uma paixão minha, e também gosto de jogar no PC. Além disso, sou fascinado por tecnologia. Meus objetivos na trajetória da bolsa são aprender ao máximo e aprimorar minhas habilidades.
 
 [Click para Sprint 1](https://github.com/cairodasilvapinto/bolsaCOMPASS#1-sprint-1) [Click para Sprint 2](https://github.com/cairodasilvapinto/bolsaCOMPASS#2-sprint-2) [Click para Sprint 3](https://github.com/cairodasilvapinto/bolsaCOMPASS/blob/main/README.md#3-sprint-3)
 # Cultura Ágil e Segurança
